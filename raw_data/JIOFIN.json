@@ -1,0 +1,238 @@
+{
+    "company": {
+        "id": "JIOFIN",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/JIOFIN.png\r\n",
+        "company_name": "Jio Financial Services Ltd",
+        "chart_link": "https://in.tradingview.com/chart/?symbol=NSE%3AJIOFIN",
+        "about_company": "Jio Financial Services Ltd is an Indian financial services company, based in Mumbai. Originally a subsidiary of Reliance Industries, it was demerged as an independent entity and listed on the Indian stock exchanges in August 2023.",
+        "website": "https://www.jfs.in/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=JIOFIN",
+        "bse_profile": "https://bseindia.com/stock-share-price/jio-financial-services-ltd/jiofin/543940/",
+        "face_value": 10,
+        "book_value": 216,
+        "roce_percentage": "2.16",
+        "roe_percentage": "1.82"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 724,
+                "company_id": "JIOFIN",
+                "year": "Mar 2023",
+                "operating_activity": 2055,
+                "investing_activity": -1110,
+                "financing_activity": -889,
+                "net_cash_flow": 56
+            },
+            {
+                "id": 725,
+                "company_id": "JIOFIN",
+                "year": "Mar 2024",
+                "operating_activity": -678,
+                "investing_activity": 1441,
+                "financing_activity": -753,
+                "net_cash_flow": 11
+            }
+        ],
+        "prosandcons": [],
+        "balancesheet": [
+            {
+                "id": 1033,
+                "company_id": "JIOFIN",
+                "year": "Mar 2023",
+                "equity_capital": "2.0",
+                "reserves": 114118,
+                "borrowings": 743,
+                "other_liabilities": 66,
+                "total_liabilities": 114930,
+                "fixed_assets": 158,
+                "cwip": 38,
+                "investments": 108141,
+                "other_asset": 6593,
+                "total_assets": 114930
+            },
+            {
+                "id": 1034,
+                "company_id": "JIOFIN",
+                "year": "Mar 2024",
+                "equity_capital": "6353.0",
+                "reserves": 132794,
+                "borrowings": 0,
+                "other_liabilities": 5715,
+                "total_liabilities": 144863,
+                "fixed_assets": 172,
+                "cwip": 3,
+                "investments": 133292,
+                "other_asset": 11395,
+                "total_assets": 144863
+            },
+            {
+                "id": 1035,
+                "company_id": "JIOFIN",
+                "year": "Sep 2024",
+                "equity_capital": "6353.0",
+                "reserves": 130791,
+                "borrowings": 0,
+                "other_liabilities": 7078,
+                "total_liabilities": 144222,
+                "fixed_assets": 171,
+                "cwip": 0,
+                "investments": 137439,
+                "other_asset": 6613,
+                "total_assets": 144222
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 786,
+                "company_id": "JIOFIN",
+                "year": "Mar 2023",
+                "sales": 45,
+                "expenses": 6,
+                "operating_profit": 39,
+                "opm_percentage": 88,
+                "other_income": 10,
+                "interest": 0,
+                "depreciation": 0,
+                "profit_before_tax": 49,
+                "tax_percentage": "37",
+                "net_profit": 31,
+                "eps": null,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 787,
+                "company_id": "JIOFIN",
+                "year": "Mar 2024",
+                "sales": 1855,
+                "expenses": 296,
+                "operating_profit": 1559,
+                "opm_percentage": 84,
+                "other_income": 429,
+                "interest": 10,
+                "depreciation": 22,
+                "profit_before_tax": 1956,
+                "tax_percentage": "18",
+                "net_profit": 1605,
+                "eps": 3,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 788,
+                "company_id": "JIOFIN",
+                "year": "TTM",
+                "sales": 1968,
+                "expenses": 437,
+                "operating_profit": 1531,
+                "opm_percentage": 78,
+                "other_income": 435,
+                "interest": 0,
+                "depreciation": 22,
+                "profit_before_tax": 1944,
+                "tax_percentage": null,
+                "net_profit": 1607,
+                "eps": 3,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [],
+        "documents": [
+            {
+                "id": 850,
+                "company_id": "JIOFIN",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/511d1e68-17fd-49f6-b7de-e77bea8325b9.pdf"
+            },
+            {
+                "id": 851,
+                "company_id": "JIOFIN",
+                "Year": 2023,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 852,
+                "company_id": "JIOFIN",
+                "Year": 2022,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 853,
+                "company_id": "JIOFIN",
+                "Year": 2021,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 854,
+                "company_id": "JIOFIN",
+                "Year": 2020,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 855,
+                "company_id": "JIOFIN",
+                "Year": 2019,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 856,
+                "company_id": "JIOFIN",
+                "Year": 2018,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 857,
+                "company_id": "JIOFIN",
+                "Year": 2017,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 858,
+                "company_id": "JIOFIN",
+                "Year": 2016,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 859,
+                "company_id": "JIOFIN",
+                "Year": 2015,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 860,
+                "company_id": "JIOFIN",
+                "Year": 2014,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 861,
+                "company_id": "JIOFIN",
+                "Year": 2013,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 862,
+                "company_id": "JIOFIN",
+                "Year": 2012,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 863,
+                "company_id": "JIOFIN",
+                "Year": 2011,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 864,
+                "company_id": "JIOFIN",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 865,
+                "company_id": "JIOFIN",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

@@ -1,0 +1,694 @@
+{
+    "company": {
+        "id": "WIPRO",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/WIPRO.png",
+        "company_name": "Wipro Ltd",
+        "chart_link": "https://in.tradingview.com/chart/qGsydD2w/?symbol=NSE%3AAMBUJACEM.T0",
+        "about_company": "Wipro Ltd is a global Information technology, consulting and business process services (BPS) company.[1",
+        "website": "https://www.wipro.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/wipro-ltd/WIPRO/507685/",
+        "face_value": 2,
+        "book_value": 78,
+        "roce_percentage": "16.90",
+        "roe_percentage": "14.30"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 1230,
+                "company_id": "WIPRO",
+                "year": "Mar 2013",
+                "operating_activity": 6394,
+                "investing_activity": -4536,
+                "financing_activity": -1140,
+                "net_cash_flow": 717
+            },
+            {
+                "id": 1231,
+                "company_id": "WIPRO",
+                "year": "Mar 2014",
+                "operating_activity": 6790,
+                "investing_activity": -284,
+                "financing_activity": -3570,
+                "net_cash_flow": 2936
+            },
+            {
+                "id": 1232,
+                "company_id": "WIPRO",
+                "year": "Mar 2015",
+                "operating_activity": 7840,
+                "investing_activity": -2537,
+                "financing_activity": -830,
+                "net_cash_flow": 4474
+            },
+            {
+                "id": 1233,
+                "company_id": "WIPRO",
+                "year": "Mar 2016",
+                "operating_activity": 7887,
+                "investing_activity": -13761,
+                "financing_activity": -159,
+                "net_cash_flow": -6032
+            },
+            {
+                "id": 1234,
+                "company_id": "WIPRO",
+                "year": "Mar 2017",
+                "operating_activity": 9277,
+                "investing_activity": -11770,
+                "financing_activity": -2275,
+                "net_cash_flow": -4767
+            },
+            {
+                "id": 1235,
+                "company_id": "WIPRO",
+                "year": "Mar 2018",
+                "operating_activity": 8423,
+                "investing_activity": 3595,
+                "financing_activity": -12998,
+                "net_cash_flow": -979
+            },
+            {
+                "id": 1236,
+                "company_id": "WIPRO",
+                "year": "Mar 2019",
+                "operating_activity": 11632,
+                "investing_activity": 5065,
+                "financing_activity": -4937,
+                "net_cash_flow": 11760
+            },
+            {
+                "id": 1237,
+                "company_id": "WIPRO",
+                "year": "Mar 2020",
+                "operating_activity": 10064,
+                "investing_activity": 3593,
+                "financing_activity": -15100,
+                "net_cash_flow": -1442
+            },
+            {
+                "id": 1238,
+                "company_id": "WIPRO",
+                "year": "Mar 2021",
+                "operating_activity": 14755,
+                "investing_activity": 685,
+                "financing_activity": -12884,
+                "net_cash_flow": 2556
+            },
+            {
+                "id": 1239,
+                "company_id": "WIPRO",
+                "year": "Mar 2022",
+                "operating_activity": 11080,
+                "investing_activity": -22321,
+                "financing_activity": 4659,
+                "net_cash_flow": -6583
+            },
+            {
+                "id": 1240,
+                "company_id": "WIPRO",
+                "year": "Mar 2023",
+                "operating_activity": 13060,
+                "investing_activity": -8169,
+                "financing_activity": -6088,
+                "net_cash_flow": -1197
+            },
+            {
+                "id": 1241,
+                "company_id": "WIPRO",
+                "year": "Mar 2024",
+                "operating_activity": 17622,
+                "investing_activity": 1144,
+                "financing_activity": -18257,
+                "net_cash_flow": 509
+            }
+        ],
+        "prosandcons": [
+            {
+                "id": 12,
+                "company_id": "WIPRO",
+                "pros": "NULL",
+                "cons": "The company has delivered a poor sales growth of 8.75% over past five years."
+            },
+            {
+                "id": 13,
+                "company_id": "WIPRO",
+                "pros": "NULL",
+                "cons": "Dividend payout has been low at 12.2% of profits over last 3 years"
+            }
+        ],
+        "balancesheet": [
+            {
+                "id": 1234,
+                "company_id": "WIPRO",
+                "year": "2013",
+                "equity_capital": "492.0",
+                "reserves": 26072,
+                "borrowings": 6381,
+                "other_liabilities": 10675,
+                "total_liabilities": 43621,
+                "fixed_assets": 9996,
+                "cwip": 407,
+                "investments": 6765,
+                "other_asset": 26454,
+                "total_assets": 43621
+            },
+            {
+                "id": 1235,
+                "company_id": "WIPRO",
+                "year": "2014",
+                "equity_capital": "493.0",
+                "reserves": 31636,
+                "borrowings": 5159,
+                "other_liabilities": 12245,
+                "total_liabilities": 49533,
+                "fixed_assets": 10649,
+                "cwip": 369,
+                "investments": 6146,
+                "other_asset": 32368,
+                "total_assets": 49533
+            },
+            {
+                "id": 1236,
+                "company_id": "WIPRO",
+                "year": "2015",
+                "equity_capital": "494.0",
+                "reserves": 36598,
+                "borrowings": 7891,
+                "other_liabilities": 13367,
+                "total_liabilities": 58350,
+                "fixed_assets": 10837,
+                "cwip": 395,
+                "investments": 5532,
+                "other_asset": 41586,
+                "total_assets": 58350
+            },
+            {
+                "id": 1237,
+                "company_id": "WIPRO",
+                "year": "2016",
+                "equity_capital": "494.0",
+                "reserves": 45651,
+                "borrowings": 12522,
+                "other_liabilities": 12924,
+                "total_liabilities": 71590,
+                "fixed_assets": 17279,
+                "cwip": 381,
+                "investments": 20915,
+                "other_asset": 33016,
+                "total_assets": 71590
+            },
+            {
+                "id": 1238,
+                "company_id": "WIPRO",
+                "year": "2017",
+                "equity_capital": "486.0",
+                "reserves": 51184,
+                "borrowings": 14241,
+                "other_liabilities": 12761,
+                "total_liabilities": 78672,
+                "fixed_assets": 19886,
+                "cwip": 738,
+                "investments": 29913,
+                "other_asset": 28135,
+                "total_assets": 78672
+            },
+            {
+                "id": 1239,
+                "company_id": "WIPRO",
+                "year": "2018",
+                "equity_capital": "905.0",
+                "reserves": 47022,
+                "borrowings": 13901,
+                "other_liabilities": 13563,
+                "total_liabilities": 75391,
+                "fixed_assets": 18127,
+                "cwip": 1378,
+                "investments": 25797,
+                "other_asset": 30090,
+                "total_assets": 75391
+            },
+            {
+                "id": 1240,
+                "company_id": "WIPRO",
+                "year": "2019",
+                "equity_capital": "1207.0",
+                "reserves": 55216,
+                "borrowings": 9947,
+                "other_liabilities": 16217,
+                "total_liabilities": 82586,
+                "fixed_assets": 17465,
+                "cwip": 2142,
+                "investments": 22887,
+                "other_asset": 40093,
+                "total_assets": 82586
+            },
+            {
+                "id": 1241,
+                "company_id": "WIPRO",
+                "year": "2020",
+                "equity_capital": "1143.0",
+                "reserves": 54179,
+                "borrowings": 9724,
+                "other_liabilities": 15954,
+                "total_liabilities": 81000,
+                "fixed_assets": 22062,
+                "cwip": 1881,
+                "investments": 20032,
+                "other_asset": 37024,
+                "total_assets": 81000
+            },
+            {
+                "id": 1242,
+                "company_id": "WIPRO",
+                "year": "2021",
+                "equity_capital": "1096.0",
+                "reserves": 53805,
+                "borrowings": 10451,
+                "other_liabilities": 17213,
+                "total_liabilities": 82566,
+                "fixed_assets": 23040,
+                "cwip": 1853,
+                "investments": 18775,
+                "other_asset": 38898,
+                "total_assets": 82566
+            },
+            {
+                "id": 1243,
+                "company_id": "WIPRO",
+                "year": "2022",
+                "equity_capital": "1096.0",
+                "reserves": 64307,
+                "borrowings": 17593,
+                "other_liabilities": 24280,
+                "total_liabilities": 107276,
+                "fixed_assets": 37990,
+                "cwip": 1602,
+                "investments": 26154,
+                "other_asset": 41531,
+                "total_assets": 107276
+            },
+            {
+                "id": 1244,
+                "company_id": "WIPRO",
+                "year": "2023",
+                "equity_capital": "1098.0",
+                "reserves": 76570,
+                "borrowings": 17467,
+                "other_liabilities": 21789,
+                "total_liabilities": 116924,
+                "fixed_assets": 44757,
+                "cwip": 617,
+                "investments": 33073,
+                "other_asset": 38477,
+                "total_assets": 116924
+            },
+            {
+                "id": 1245,
+                "company_id": "WIPRO",
+                "year": "2024",
+                "equity_capital": "1045.0",
+                "reserves": 73488,
+                "borrowings": 16465,
+                "other_liabilities": 23611,
+                "total_liabilities": 114609,
+                "fixed_assets": 43628,
+                "cwip": 723,
+                "investments": 33384,
+                "other_asset": 36873,
+                "total_assets": 114609
+            },
+            {
+                "id": 1246,
+                "company_id": "WIPRO",
+                "year": "2024.5",
+                "equity_capital": "1046.0",
+                "reserves": 80330,
+                "borrowings": 19282,
+                "other_liabilities": 24893,
+                "total_liabilities": 125552,
+                "fixed_assets": 43476,
+                "cwip": 846,
+                "investments": 43970,
+                "other_asset": 37260,
+                "total_assets": 125552
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 1328,
+                "company_id": "WIPRO",
+                "year": "Mar 2013",
+                "sales": 37430,
+                "expenses": 29773,
+                "operating_profit": 7657,
+                "opm_percentage": 20,
+                "other_income": 1440,
+                "interest": 289,
+                "depreciation": 940,
+                "profit_before_tax": 7869,
+                "tax_percentage": "21",
+                "net_profit": 6182,
+                "eps": 5,
+                "dividend_payout": "28"
+            },
+            {
+                "id": 1329,
+                "company_id": "WIPRO",
+                "year": "Mar 2014",
+                "sales": 43424,
+                "expenses": 33788,
+                "operating_profit": 9635,
+                "opm_percentage": 22,
+                "other_income": 1922,
+                "interest": 383,
+                "depreciation": 1060,
+                "profit_before_tax": 10114,
+                "tax_percentage": "21",
+                "net_profit": 7991,
+                "eps": 6,
+                "dividend_payout": "25"
+            },
+            {
+                "id": 1330,
+                "company_id": "WIPRO",
+                "year": "Mar 2015",
+                "sales": 46951,
+                "expenses": 36652,
+                "operating_profit": 10299,
+                "opm_percentage": 22,
+                "other_income": 2450,
+                "interest": 350,
+                "depreciation": 1175,
+                "profit_before_tax": 11224,
+                "tax_percentage": "22",
+                "net_profit": 8714,
+                "eps": 7,
+                "dividend_payout": "34"
+            },
+            {
+                "id": 1331,
+                "company_id": "WIPRO",
+                "year": "Mar 2016",
+                "sales": 51244,
+                "expenses": 40448,
+                "operating_profit": 10796,
+                "opm_percentage": 21,
+                "other_income": 2752,
+                "interest": 558,
+                "depreciation": 1496,
+                "profit_before_tax": 11494,
+                "tax_percentage": "22",
+                "net_profit": 8957,
+                "eps": 7,
+                "dividend_payout": "17"
+            },
+            {
+                "id": 1332,
+                "company_id": "WIPRO",
+                "year": "Mar 2017",
+                "sales": 55448,
+                "expenses": 44128,
+                "operating_profit": 11321,
+                "opm_percentage": 20,
+                "other_income": 2623,
+                "interest": 594,
+                "depreciation": 2310,
+                "profit_before_tax": 11039,
+                "tax_percentage": "23",
+                "net_profit": 8518,
+                "eps": 7,
+                "dividend_payout": "6"
+            },
+            {
+                "id": 1333,
+                "company_id": "WIPRO",
+                "year": "Mar 2018",
+                "sales": 54487,
+                "expenses": 44100,
+                "operating_profit": 10387,
+                "opm_percentage": 19,
+                "other_income": 2550,
+                "interest": 583,
+                "depreciation": 2112,
+                "profit_before_tax": 10242,
+                "tax_percentage": "22",
+                "net_profit": 8003,
+                "eps": 7,
+                "dividend_payout": "6"
+            },
+            {
+                "id": 1334,
+                "company_id": "WIPRO",
+                "year": "Mar 2019",
+                "sales": 59019,
+                "expenses": 47406,
+                "operating_profit": 11613,
+                "opm_percentage": 20,
+                "other_income": 2614,
+                "interest": 738,
+                "depreciation": 1947,
+                "profit_before_tax": 11542,
+                "tax_percentage": "22",
+                "net_profit": 9018,
+                "eps": 7,
+                "dividend_payout": "7"
+            },
+            {
+                "id": 1335,
+                "company_id": "WIPRO",
+                "year": "Mar 2020",
+                "sales": 61138,
+                "expenses": 48795,
+                "operating_profit": 12342,
+                "opm_percentage": 20,
+                "other_income": 2728,
+                "interest": 733,
+                "depreciation": 2086,
+                "profit_before_tax": 12252,
+                "tax_percentage": "20",
+                "net_profit": 9772,
+                "eps": 9,
+                "dividend_payout": "6"
+            },
+            {
+                "id": 1336,
+                "company_id": "WIPRO",
+                "year": "Mar 2021",
+                "sales": 61935,
+                "expenses": 47164,
+                "operating_profit": 14771,
+                "opm_percentage": 24,
+                "other_income": 2404,
+                "interest": 509,
+                "depreciation": 2763,
+                "profit_before_tax": 13903,
+                "tax_percentage": "22",
+                "net_profit": 10868,
+                "eps": 10,
+                "dividend_payout": "5"
+            },
+            {
+                "id": 1337,
+                "company_id": "WIPRO",
+                "year": "Mar 2022",
+                "sales": 79312,
+                "expenses": 62628,
+                "operating_profit": 16684,
+                "opm_percentage": 21,
+                "other_income": 2067,
+                "interest": 532,
+                "depreciation": 3078,
+                "profit_before_tax": 15141,
+                "tax_percentage": "19",
+                "net_profit": 12243,
+                "eps": 11,
+                "dividend_payout": "27"
+            },
+            {
+                "id": 1338,
+                "company_id": "WIPRO",
+                "year": "Mar 2023",
+                "sales": 90488,
+                "expenses": 73649,
+                "operating_profit": 16839,
+                "opm_percentage": 19,
+                "other_income": 2275,
+                "interest": 1008,
+                "depreciation": 3340,
+                "profit_before_tax": 14766,
+                "tax_percentage": "23",
+                "net_profit": 11366,
+                "eps": 10,
+                "dividend_payout": "5"
+            },
+            {
+                "id": 1339,
+                "company_id": "WIPRO",
+                "year": "Mar 2024",
+                "sales": 89760,
+                "expenses": 73008,
+                "operating_profit": 16752,
+                "opm_percentage": 19,
+                "other_income": 2631,
+                "interest": 1255,
+                "depreciation": 3407,
+                "profit_before_tax": 14721,
+                "tax_percentage": "25",
+                "net_profit": 11112,
+                "eps": 11,
+                "dividend_payout": "5"
+            },
+            {
+                "id": 1340,
+                "company_id": "WIPRO",
+                "year": "TTM",
+                "sales": 88792,
+                "expenses": 71019,
+                "operating_profit": 17773,
+                "opm_percentage": 20,
+                "other_income": 3349,
+                "interest": 1431,
+                "depreciation": 3077,
+                "profit_before_tax": 16615,
+                "tax_percentage": null,
+                "net_profit": 12488,
+                "eps": 12,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [
+            {
+                "id": "17",
+                "company_id": "WIPRO",
+                "compounded_sales_growth": "10 Years:     8%",
+                "compounded_profit_growth": "10 Years:          3%",
+                "stock_price_cagr": "    10 Years:     12%",
+                "roe": "10 Years:        18%"
+            },
+            {
+                "id": "18",
+                "company_id": "WIPRO",
+                "compounded_sales_growth": "5 Years:       9%",
+                "compounded_profit_growth": "5 Years:            4%",
+                "stock_price_cagr": "      5 Years:     20%",
+                "roe": "5 Years:          17%"
+            },
+            {
+                "id": "19",
+                "company_id": "WIPRO",
+                "compounded_sales_growth": "3 Years:      13%",
+                "compounded_profit_growth": "3 Years:            0%",
+                "stock_price_cagr": "      3 Years:      -1%",
+                "roe": "3 Years:          17%"
+            },
+            {
+                "id": "20",
+                "company_id": "WIPRO",
+                "compounded_sales_growth": "TTM:           -3%",
+                "compounded_profit_growth": "TTM:                 1%",
+                "stock_price_cagr": "      1 Year:       39%",
+                "roe": "Last Year:       14%"
+            }
+        ],
+        "documents": [
+            {
+                "id": 1538,
+                "company_id": "WIPRO",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/53cec073-5278-4dcd-9066-2fd101023af5.pdf"
+            },
+            {
+                "id": 1539,
+                "company_id": "WIPRO",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//ea6ff555-0162-4acf-98b2-0ef7a7a26699.pdf"
+            },
+            {
+                "id": 1540,
+                "company_id": "WIPRO",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/73311507685.pdf"
+            },
+            {
+                "id": 1541,
+                "company_id": "WIPRO",
+                "Year": 2021,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/68597507685.pdf"
+            },
+            {
+                "id": 1542,
+                "company_id": "WIPRO",
+                "Year": 2020,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850320.pdf"
+            },
+            {
+                "id": 1543,
+                "company_id": "WIPRO",
+                "Year": 2019,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850319.pdf"
+            },
+            {
+                "id": 1544,
+                "company_id": "WIPRO",
+                "Year": 2018,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850318.pdf"
+            },
+            {
+                "id": 1545,
+                "company_id": "WIPRO",
+                "Year": 2017,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850317.pdf"
+            },
+            {
+                "id": 1546,
+                "company_id": "WIPRO",
+                "Year": 2016,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850316.pdf"
+            },
+            {
+                "id": 1547,
+                "company_id": "WIPRO",
+                "Year": 2015,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850315.pdf"
+            },
+            {
+                "id": 1548,
+                "company_id": "WIPRO",
+                "Year": 2014,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850314.pdf"
+            },
+            {
+                "id": 1549,
+                "company_id": "WIPRO",
+                "Year": 2013,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850313.pdf"
+            },
+            {
+                "id": 1550,
+                "company_id": "WIPRO",
+                "Year": 2012,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850312.pdf"
+            },
+            {
+                "id": 1551,
+                "company_id": "WIPRO",
+                "Year": 2011,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/507685/5076850311.pdf"
+            },
+            {
+                "id": 1552,
+                "company_id": "WIPRO",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1553,
+                "company_id": "WIPRO",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

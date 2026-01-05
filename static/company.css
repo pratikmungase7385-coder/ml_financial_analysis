@@ -1,0 +1,315 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background:#f3f6fb;
+    font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin:0;
+    color:#1f2937;
+}
+
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6a0cff, #7b2cff);
+    padding: 18px 40px;
+    color: white;
+    box-shadow: 0 6px 18px rgba(106,12,255,0.35);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.name{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.name .logo{
+    width:30px;
+    height:30px;
+    object-fit:contain;
+}
+
+.name b{
+    font-size:18px;
+    font-weight:700;
+    color:white;
+}
+
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+/* Page Container */
+.container{
+    max-width:1350px;
+    margin:30px auto;
+    padding:0 20px;
+}
+
+/* ================= COMPANY CARD ================= */
+
+.company-card{
+    background:#ffffff;
+    border-radius:24px;
+    padding:50px;
+    box-shadow:0 20px 40px rgba(0,0,0,.06);
+    margin-bottom:50px;
+    height:400px;
+}
+
+.company-flex{
+    display:flex;
+    gap:50px;
+    align-items:center;
+}
+
+.logo-box{
+    width:220px;
+    height:220px;
+    background:#f4f6fa;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: inset 0 0 0 1px #e6ebf3;
+}
+
+.logo-box img{
+    max-width:80%;
+}
+
+.company-info h1{
+    font-size:32px;
+    color:#1d4ed8;
+    margin:0 0 12px;
+}
+
+.company-info p{
+    color:#363738;
+    line-height:1.6;
+    max-width:800px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.chart-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    border-radius:30px;
+    border:2px solid #2563eb;
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+    transition:.2s;
+}
+
+.chart-btn:hover{
+    background:#2563eb;
+    color:white;
+}
+
+/* ================= SECTION CARDS ================= */
+
+.card{
+    background:white;
+    border-radius:24px;
+    padding:40px 50px;
+    margin-bottom:50px;
+    box-shadow:0 20px 40px rgba(0,0,0,.05);
+}
+
+.card h2{
+    font-size:28px;
+    color:#1d4ed8;
+    margin-bottom:10px;
+}
+
+/* ================= ML STATUS ================= */
+
+.ml-status{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:15px 0 30px;
+    font-size:18px;
+    color:#4b5563;
+}
+
+.ml-dot{
+    width:13px;
+    height:13px;
+    background:#373737;
+    border-radius:50%;
+    animation:pulse 1s infinite;
+}
+
+@keyframes pulse{
+    0%{opacity:.4}
+    50%{opacity:1}
+    100%{opacity:.4}
+}
+
+/* ================= ANALYSIS GRID ================= */
+
+.analysis-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.box{
+    background:#f9fafb;
+    border-radius:18px;
+    padding:30px;
+    border:1px solid #e5e7eb;
+}
+
+.box h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+/* ================= PROS & CONS ================= */
+
+.pc{
+    display:flex;
+    gap:40px;
+}
+.pros, .cons{
+    flex:2;
+    border-radius:26px;
+    padding:38px 42px;
+    color:white;
+    position:relative;
+
+    /* soft layered shadow like the screenshot */
+    box-shadow:
+        0 25px 45px rgba(0,0,0,.18),
+        inset 0 0 0 1px rgba(255,255,255,.18);
+}
+
+.pros{
+    background:linear-gradient(135deg,#2dd4bf,#14b8a6);
+}
+
+.cons{
+    background:linear-gradient(135deg,#fb7185,#ec4899);
+}
+.pros h3, .cons h3{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:26px;
+    letter-spacing:0.3px;
+}
+
+.pros p, .cons p{
+    padding:16px 0;
+    font-size:15px;
+    line-height:1.6;
+    border-bottom:1.5px solid rgba(255,255,255,.35);
+}
+
+
+
+
+
+
+
+
+/* ================= TABLE ================= */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:16px;
+    overflow:hidden;
+}
+
+th{
+    background:#f1f5f9;
+    color:#252626;
+    font-weight:700;
+    text-align:left;
+    padding:14px;
+}
+
+td{
+    padding:14px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+tr:hover{
+    background:#f8fafc;
+}
+
+/* ===== DOCUMENTS TABLE ===== */
+
+
+.documents-list{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.doc-header{
+    display:grid;
+    grid-template-columns: 120px 1fr;
+    padding:18px 30px;
+    font-weight:700;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.doc-row{
+    display:grid;
+    grid-template-columns: 120px 1fr;
+    padding:18px 30px;
+    align-items:center;
+}
+
+.doc-row:nth-child(even){
+    background:#f3f4f6;
+}
+
+.doc-row a{
+    color:#2563eb;
+    font-weight:600;
+    align-items: center;
+}

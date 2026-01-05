@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Companies</title>
+    <style>
+
+
+
+        body {
+            margin:0;
+            font-family: "Segoe UI", sans-serif;
+            background:#f7f8fc;
+        }
+   
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6a0cff, #7b2cff);
+    padding: 18px 40px;
+    color: white;
+    box-shadow: 0 6px 18px rgba(106,12,255,0.35);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.name{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.name .logo{
+    width:30px;
+    height:30px;
+    object-fit:contain;
+}
+
+.name b{
+    font-size:22px;
+    font-weight:700;
+    color:white;
+}
+
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.contaiar{
+    padding: 30px;
+}
+
+/* Center hero */
+.hero{
+    height:calc(100vh - 70px);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+/* Illustration */
+.hero img{
+    width:420px;
+    margin-bottom:20px;
+}
+
+         
+
+
+
+
+
+        h1 {
+            text-align: center;
+            color: #0b5cff;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 14px;
+            background: #0b5cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="name">
+        <img src="/static/logo.jpeg" class="logo">
+        <b>StockAnalyzer</b>
+    </div>
+
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/companies">All Companies</a>
+    </div>
+</div>
+
+
+
+<div class="contaiar"> 
+
+
+<h1>NIFTY 100 Companies</h1>
+
+<div class="grid">
+{% for c in companies %}
+    <div class="card">
+        <img src="{{ c.company_logo }}">
+        <h3>{{ c.company_name }}</h3>
+ <a href="/company/{{ c.company_id }}">View</a>
+
+    </div>
+{% endfor %}
+</div>
+
+</div>
+
+</body>
+</html>

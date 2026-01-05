@@ -1,0 +1,293 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ company.company_name }}</title>
+    <link rel="stylesheet" href="/static/company.css">
+</head>
+<body>
+<style>
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6a0cff, #7b2cff);
+    padding: 18px 40px;
+    color: white;
+    box-shadow: 0 6px 18px rgba(106,12,255,0.35);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.brand .logo{
+    width:30px;
+    height:30px;
+    object-fit:contain;
+}
+
+.brand span{
+    font-size:22px;
+    font-weight:700;
+    color:white;
+    letter-spacing:.5px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+
+/* Center hero */
+.hero{
+    height:calc(100vh - 70px);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+/* Illustration */
+.hero img{
+    width:420px;
+    margin-bottom:20px;
+}
+
+</style>
+
+
+<div class="navbar">
+    <div class="brand">
+        <img src="/static/logo.jpeg" class="logo">
+        <span>StockAnalyzer</span>
+    </div>
+
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/companies">All Companies</a>
+    </div>
+</div>
+
+
+
+<div class="container">
+
+
+
+<!-- ================= Company Header ================= -->
+<div class="company-card">
+    <div class="company-flex">
+
+        <div class="logo-box">
+            <img src="{{ company.company_logo }}">
+        </div>
+
+        <div class="company-info">
+            <h1>{{ company.company_name }}</h1>
+            <p>{{ company.about_company }}</p>
+
+            <p>
+                <b>Website:</b>
+                <a href="{{ company.website }}" target="_blank">{{ company.website }}</a>
+            </p>
+
+            <p>
+                <b>Chart:</b>
+                <a class="chart-btn" href="{{ company.chart_link }}" target="_blank">
+                    Launch Chart
+                </a>
+            </p>
+
+            <p><b>Symbol:</b> {{ company.company_id }}</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= Analysis ================= -->
+{% if analysis|length > 0 %}
+<div class="card">
+    <h2>Analysis</h2>
+
+    <div class="ml-status">
+        <span class="ml-dot"></span>
+        Generated using Machine Learning
+    </div>
+
+    <div class="analysis-grid">
+
+        <div class="box">
+            <h3>Sales Growth</h3>
+            {% for r in analysis %}
+                <p>{{ r.compounded_sales_growth }}</p>
+            {% endfor %}
+        </div>
+
+        <div class="box">
+            <h3>Profit Growth</h3>
+            {% for r in analysis %}
+                <p>{{ r.compounded_profit_growth }}</p>
+            {% endfor %}
+        </div>
+
+        <div class="box">
+            <h3>ROE</h3>
+            {% for r in analysis %}
+                <p>{{ r.roe }}</p>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+{% endif %}
+
+<!-- ================= Pros & Cons ================= -->
+{% if pros|length > 0 or cons|length > 0 %}
+<div class="card">
+    <h2>Pros & Cons</h2>
+
+    <div class="ml-status">
+        <span class="ml-dot"></span>
+        Generated using Machine Learning
+    </div>
+
+    <div class="pc">
+
+        <div class="pros">
+            <h3>Pros</h3>
+            <ul>
+                {% for p in pros %}
+                    <li>{{ p.pros }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="cons">
+            <h3>Cons</h3>
+            <ul>
+                {% for c in cons %}
+                    <li>{{ c.cons }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
+</div>
+{% endif %}
+
+<!-- ================= Balance Sheet ================= -->
+<div class="card">
+<h2>Balance Sheet</h2>
+<table>
+<tr>
+<th>Year</th><th>Equity</th><th>Reserves</th><th>Borrowings</th><th>Total Assets</th>
+</tr>
+{% for r in balancesheet %}
+<tr>
+<td>{{ r.year }}</td>
+<td>{{ r.equity_capital }}</td>
+<td>{{ r.reserves }}</td>
+<td>{{ r.borrowings }}</td>
+<td>{{ r.total_assets }}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+
+<!-- ================= Profit & Loss ================= -->
+<div class="card">
+<h2>Profit & Loss</h2>
+<table>
+<tr>
+<th>Year</th><th>Sales</th><th>Expenses</th><th>Net Profit</th><th>EPS</th>
+</tr>
+{% for r in profitandloss %}
+<tr>
+<td>{{ r.year }}</td>
+<td>{{ r.sales }}</td>
+<td>{{ r.expenses }}</td>
+<td>{{ r.net_profit }}</td>
+<td>{{ r.eps }}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+
+<!-- ================= Cash Flow ================= -->
+<div class="card">
+<h2>Cash Flow</h2>
+<table>
+<tr>
+<th>Year</th><th>Operating</th><th>Investing</th><th>Financing</th><th>Net</th>
+</tr>
+{% for r in cashflow %}
+<tr>
+<td>{{ r.year }}</td>
+<td>{{ r.operating_activity }}</td>
+<td>{{ r.investing_activity }}</td>
+<td>{{ r.financing_activity }}</td>
+<td>{{ r.net_cash_flow }}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+
+<!-- ================= Documents ================= -->
+<!-- <div class="card">
+<h2>Documents</h2>
+<ul>
+{% for d in documents %}
+<li>{{ d.year }} – <a href="{{ d.annual_report }}" target="_blank">View Report</a></li>
+{% endfor %}
+</ul>
+</div> -->
+
+
+<div class="documents-list">
+    <div class="doc-header">
+        <span>Year</span>
+        <span>Annual Report</span>
+    </div>
+
+    {% for row in documents %}
+    <div class="doc-row">
+        <span>{{ row.year }}</span>
+        <a href="{{ row.annual_report }}"target="_blank">View Report</a>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+</div>
+</body>
+</html>

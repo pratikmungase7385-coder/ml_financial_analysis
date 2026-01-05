@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stock Analytics</title>
+<link rel="stylesheet" href="/static/home.css">
+
+
+</head>
+
+<body>
+
+<div class="navbar">
+   
+    <a href="/"><div class="name">
+        <img src="/static/logo.jpeg" class="logo">
+
+        <b>StockAnalyzer</b></div>
+           </a>
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/companies">All Companies</a>
+    </div>
+     
+</div>
+
+<div class="hero">
+
+    <img src="/static/1.svg">
+
+    <h1>Find the best with <span class="badge">Stock Analytics</span></h1>
+
+
+<div class="search-container">
+
+    <form class="search-wrap" action="/search" method="get">
+        <span class="search-icon">🔍</span>
+        <input name="q" placeholder="Search for a company" required>
+    </form> 
+
+    {% if error %}
+    <div class="search-error" id="searchError">
+        {{ error }}
+    </div>
+    {% endif %}
+
+</div>
+
+
+
+
+<script>
+const err = document.getElementById("searchError");
+
+if (err) {
+    // fade + remove after 1 second
+    setTimeout(() => {
+        err.style.opacity = "0";
+        err.style.transform = "translateY(-8px)";
+        setTimeout(() => err.remove(), 300);
+    }, 6000);
+
+    // remove any error state from browser history
+    if (window.history.replaceState) {
+        window.history.replaceState({}, "", window.location.pathname);
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+    <div class="examples">
+        For Example :
+        <div class="chips">
+            {% for c in examples %}
+                <div class="chip" onclick="location.href='/company/{{ c.company_id }}'">
+                    {{ c.company_name }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

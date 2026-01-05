@@ -1,0 +1,808 @@
+{
+    "company": {
+        "id": "TCS",
+        "company_logo": "https://images.5paisa.com/MarketIcons/TCS.png",
+        "company_name": "Tata Consultancy Services Ltd",
+        "chart_link": "https://www.screener.in/company/TCS/consolidated/#chart",
+        "about_company": "Tata Consultancy Services is the flagship company and a part of Tata group. It is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their transformation journeys for over 50 years. TCS offers a consulting-led, cognitive powered, integrated portfolio of business, technology and engineering services and solutions.",
+        "website": "https://www.tcs.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=TCS",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/TCS/532540/",
+        "face_value": 1,
+        "book_value": 281,
+        "roce_percentage": "64.30",
+        "roe_percentage": "0.52"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 37,
+                "company_id": "TCS",
+                "year": "Mar-13",
+                "operating_activity": 11615,
+                "investing_activity": -6038,
+                "financing_activity": -5729,
+                "net_cash_flow": -152
+            },
+            {
+                "id": 38,
+                "company_id": "TCS",
+                "year": "Mar-14",
+                "operating_activity": 14751,
+                "investing_activity": -9452,
+                "financing_activity": -5673,
+                "net_cash_flow": -374
+            },
+            {
+                "id": 39,
+                "company_id": "TCS",
+                "year": "Mar-15",
+                "operating_activity": 19369,
+                "investing_activity": -1807,
+                "financing_activity": -17168,
+                "net_cash_flow": 394
+            },
+            {
+                "id": 40,
+                "company_id": "TCS",
+                "year": "Mar-16",
+                "operating_activity": 19109,
+                "investing_activity": -5010,
+                "financing_activity": -9666,
+                "net_cash_flow": 4433
+            },
+            {
+                "id": 41,
+                "company_id": "TCS",
+                "year": "Mar-17",
+                "operating_activity": 25223,
+                "investing_activity": -16895,
+                "financing_activity": -11026,
+                "net_cash_flow": -2698
+            },
+            {
+                "id": 42,
+                "company_id": "TCS",
+                "year": "Mar-18",
+                "operating_activity": 25067,
+                "investing_activity": 3104,
+                "financing_activity": -26885,
+                "net_cash_flow": 1286
+            },
+            {
+                "id": 43,
+                "company_id": "TCS",
+                "year": "Mar-19",
+                "operating_activity": 28593,
+                "investing_activity": 1645,
+                "financing_activity": -27897,
+                "net_cash_flow": 2341
+            },
+            {
+                "id": 44,
+                "company_id": "TCS",
+                "year": "Mar-20",
+                "operating_activity": 32369,
+                "investing_activity": 8968,
+                "financing_activity": -39915,
+                "net_cash_flow": 1422
+            },
+            {
+                "id": 45,
+                "company_id": "TCS",
+                "year": "Mar-21",
+                "operating_activity": 38802,
+                "investing_activity": -7956,
+                "financing_activity": -32634,
+                "net_cash_flow": -1788
+            },
+            {
+                "id": 46,
+                "company_id": "TCS",
+                "year": "Mar-22",
+                "operating_activity": 39949,
+                "investing_activity": -738,
+                "financing_activity": -33581,
+                "net_cash_flow": 5630
+            },
+            {
+                "id": 47,
+                "company_id": "TCS",
+                "year": "Mar-23",
+                "operating_activity": 41965,
+                "investing_activity": 548,
+                "financing_activity": -47878,
+                "net_cash_flow": -5365
+            },
+            {
+                "id": 48,
+                "company_id": "TCS",
+                "year": "Mar-24",
+                "operating_activity": 44338,
+                "investing_activity": 6091,
+                "financing_activity": -48536,
+                "net_cash_flow": 1893
+            },
+            {
+                "id": 1098,
+                "company_id": "TCS",
+                "year": "Mar 2013",
+                "operating_activity": 11615,
+                "investing_activity": -6038,
+                "financing_activity": -5729,
+                "net_cash_flow": -152
+            },
+            {
+                "id": 1099,
+                "company_id": "TCS",
+                "year": "Mar 2014",
+                "operating_activity": 14751,
+                "investing_activity": -9452,
+                "financing_activity": -5673,
+                "net_cash_flow": -374
+            },
+            {
+                "id": 1100,
+                "company_id": "TCS",
+                "year": "Mar 2015",
+                "operating_activity": 19369,
+                "investing_activity": -1807,
+                "financing_activity": -17168,
+                "net_cash_flow": 394
+            },
+            {
+                "id": 1101,
+                "company_id": "TCS",
+                "year": "Mar 2016",
+                "operating_activity": 19109,
+                "investing_activity": -5010,
+                "financing_activity": -9666,
+                "net_cash_flow": 4433
+            },
+            {
+                "id": 1102,
+                "company_id": "TCS",
+                "year": "Mar 2017",
+                "operating_activity": 25223,
+                "investing_activity": -16895,
+                "financing_activity": -11026,
+                "net_cash_flow": -2698
+            },
+            {
+                "id": 1103,
+                "company_id": "TCS",
+                "year": "Mar 2018",
+                "operating_activity": 25067,
+                "investing_activity": 3104,
+                "financing_activity": -26885,
+                "net_cash_flow": 1286
+            },
+            {
+                "id": 1104,
+                "company_id": "TCS",
+                "year": "Mar 2019",
+                "operating_activity": 28593,
+                "investing_activity": 1645,
+                "financing_activity": -27897,
+                "net_cash_flow": 2341
+            },
+            {
+                "id": 1105,
+                "company_id": "TCS",
+                "year": "Mar 2020",
+                "operating_activity": 32369,
+                "investing_activity": 8968,
+                "financing_activity": -39915,
+                "net_cash_flow": 1422
+            },
+            {
+                "id": 1106,
+                "company_id": "TCS",
+                "year": "Mar 2021",
+                "operating_activity": 38802,
+                "investing_activity": -7956,
+                "financing_activity": -32634,
+                "net_cash_flow": -1788
+            },
+            {
+                "id": 1107,
+                "company_id": "TCS",
+                "year": "Mar 2022",
+                "operating_activity": 39949,
+                "investing_activity": -738,
+                "financing_activity": -33581,
+                "net_cash_flow": 5630
+            },
+            {
+                "id": 1108,
+                "company_id": "TCS",
+                "year": "Mar 2023",
+                "operating_activity": 41965,
+                "investing_activity": 548,
+                "financing_activity": -47878,
+                "net_cash_flow": -5365
+            },
+            {
+                "id": 1109,
+                "company_id": "TCS",
+                "year": "Mar 2024",
+                "operating_activity": 44338,
+                "investing_activity": 6091,
+                "financing_activity": -48536,
+                "net_cash_flow": 1893
+            }
+        ],
+        "prosandcons": [
+            {
+                "id": 14,
+                "company_id": "TCS",
+                "pros": "Company is almost debt free.",
+                "cons": "Stock is trading at 15.2 times its book value"
+            },
+            {
+                "id": 15,
+                "company_id": "TCS",
+                "pros": "Company has a good return on equity (ROE) track record: 3 Years ROE 47.4%",
+                "cons": "The company has delivered a poor sales growth of 10.5% over past five years."
+            },
+            {
+                "id": 16,
+                "company_id": "TCS",
+                "pros": "Company has been maintaining a healthy dividend payout of 66.2%",
+                "cons": "NULL"
+            }
+        ],
+        "balancesheet": [
+            {
+                "id": 1414,
+                "company_id": "TCS",
+                "year": "Mar 2013",
+                "equity_capital": "196.0",
+                "reserves": 38350,
+                "borrowings": 332,
+                "other_liabilities": 13054,
+                "total_liabilities": 51932,
+                "fixed_assets": 9828,
+                "cwip": 1895,
+                "investments": 1897,
+                "other_asset": 38312,
+                "total_assets": 51932
+            },
+            {
+                "id": 1415,
+                "company_id": "TCS",
+                "year": "Mar 2014",
+                "equity_capital": "196.0",
+                "reserves": 48999,
+                "borrowings": 297,
+                "other_liabilities": 17337,
+                "total_liabilities": 66829,
+                "fixed_assets": 9544,
+                "cwip": 3168,
+                "investments": 3434,
+                "other_asset": 50682,
+                "total_assets": 66829
+            },
+            {
+                "id": 1416,
+                "company_id": "TCS",
+                "year": "Mar 2015",
+                "equity_capital": "196.0",
+                "reserves": 50439,
+                "borrowings": 358,
+                "other_liabilities": 22325,
+                "total_liabilities": 73318,
+                "fixed_assets": 11638,
+                "cwip": 2766,
+                "investments": 1662,
+                "other_asset": 57252,
+                "total_assets": 73318
+            },
+            {
+                "id": 1417,
+                "company_id": "TCS",
+                "year": "Mar 2016",
+                "equity_capital": "197.0",
+                "reserves": 70875,
+                "borrowings": 245,
+                "other_liabilities": 16974,
+                "total_liabilities": 88291,
+                "fixed_assets": 11774,
+                "cwip": 1670,
+                "investments": 22822,
+                "other_asset": 52025,
+                "total_assets": 88291
+            },
+            {
+                "id": 1418,
+                "company_id": "TCS",
+                "year": "Mar 2017",
+                "equity_capital": "197.0",
+                "reserves": 86017,
+                "borrowings": 289,
+                "other_liabilities": 15830,
+                "total_liabilities": 102333,
+                "fixed_assets": 11701,
+                "cwip": 1541,
+                "investments": 41980,
+                "other_asset": 47111,
+                "total_assets": 102333
+            },
+            {
+                "id": 1419,
+                "company_id": "TCS",
+                "year": "Mar 2018",
+                "equity_capital": "191.0",
+                "reserves": 84937,
+                "borrowings": 247,
+                "other_liabilities": 19751,
+                "total_liabilities": 105126,
+                "fixed_assets": 11973,
+                "cwip": 1278,
+                "investments": 36008,
+                "other_asset": 55867,
+                "total_assets": 105126
+            },
+            {
+                "id": 1420,
+                "company_id": "TCS",
+                "year": "Mar 2019",
+                "equity_capital": "375.0",
+                "reserves": 89071,
+                "borrowings": 62,
+                "other_liabilities": 24393,
+                "total_liabilities": 113901,
+                "fixed_assets": 12290,
+                "cwip": 963,
+                "investments": 29330,
+                "other_asset": 71318,
+                "total_assets": 113901
+            },
+            {
+                "id": 1421,
+                "company_id": "TCS",
+                "year": "Mar 2020",
+                "equity_capital": "375.0",
+                "reserves": 83751,
+                "borrowings": 8174,
+                "other_liabilities": 27827,
+                "total_liabilities": 120127,
+                "fixed_assets": 20928,
+                "cwip": 906,
+                "investments": 26356,
+                "other_asset": 71937,
+                "total_assets": 120127
+            },
+            {
+                "id": 1422,
+                "company_id": "TCS",
+                "year": "Mar 2021",
+                "equity_capital": "370.0",
+                "reserves": 86063,
+                "borrowings": 7795,
+                "other_liabilities": 35764,
+                "total_liabilities": 129992,
+                "fixed_assets": 21021,
+                "cwip": 926,
+                "investments": 29373,
+                "other_asset": 78672,
+                "total_assets": 129992
+            },
+            {
+                "id": 1423,
+                "company_id": "TCS",
+                "year": "Mar 2022",
+                "equity_capital": "366.0",
+                "reserves": 88773,
+                "borrowings": 7818,
+                "other_liabilities": 43967,
+                "total_liabilities": 140924,
+                "fixed_assets": 21298,
+                "cwip": 1205,
+                "investments": 30485,
+                "other_asset": 87936,
+                "total_assets": 140924
+            },
+            {
+                "id": 1424,
+                "company_id": "TCS",
+                "year": "Mar 2023",
+                "equity_capital": "366.0",
+                "reserves": 90058,
+                "borrowings": 7688,
+                "other_liabilities": 44747,
+                "total_liabilities": 142859,
+                "fixed_assets": 20515,
+                "cwip": 1234,
+                "investments": 37163,
+                "other_asset": 83947,
+                "total_assets": 142859
+            },
+            {
+                "id": 1425,
+                "company_id": "TCS",
+                "year": "Mar 2024",
+                "equity_capital": "362.0",
+                "reserves": 90127,
+                "borrowings": 8021,
+                "other_liabilities": 46962,
+                "total_liabilities": 145472,
+                "fixed_assets": 19604,
+                "cwip": 1564,
+                "investments": 31762,
+                "other_asset": 92542,
+                "total_assets": 145472
+            },
+            {
+                "id": 1426,
+                "company_id": "TCS",
+                "year": "Sep 2024",
+                "equity_capital": "362.0",
+                "reserves": 101133,
+                "borrowings": 9046,
+                "other_liabilities": 50583,
+                "total_liabilities": 161124,
+                "fixed_assets": 20729,
+                "cwip": 1500,
+                "investments": 36081,
+                "other_asset": 102814,
+                "total_assets": 161124
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 1185,
+                "company_id": "TCS",
+                "year": "Mar 2013",
+                "sales": 62989,
+                "expenses": 44950,
+                "operating_profit": 18040,
+                "opm_percentage": 29,
+                "other_income": 1178,
+                "interest": 48,
+                "depreciation": 1080,
+                "profit_before_tax": 18090,
+                "tax_percentage": "22",
+                "net_profit": 14076,
+                "eps": 36,
+                "dividend_payout": "31"
+            },
+            {
+                "id": 1186,
+                "company_id": "TCS",
+                "year": "Mar 2014",
+                "sales": 81809,
+                "expenses": 56657,
+                "operating_profit": 25153,
+                "opm_percentage": 31,
+                "other_income": 1637,
+                "interest": 39,
+                "depreciation": 1349,
+                "profit_before_tax": 25402,
+                "tax_percentage": "24",
+                "net_profit": 19332,
+                "eps": 49,
+                "dividend_payout": "33"
+            },
+            {
+                "id": 1187,
+                "company_id": "TCS",
+                "year": "Mar 2015",
+                "sales": 94648,
+                "expenses": 70167,
+                "operating_profit": 24482,
+                "opm_percentage": 26,
+                "other_income": 3720,
+                "interest": 104,
+                "depreciation": 1799,
+                "profit_before_tax": 26298,
+                "tax_percentage": "24",
+                "net_profit": 20060,
+                "eps": 51,
+                "dividend_payout": "78"
+            },
+            {
+                "id": 1188,
+                "company_id": "TCS",
+                "year": "Mar 2016",
+                "sales": 108646,
+                "expenses": 77969,
+                "operating_profit": 30677,
+                "opm_percentage": 28,
+                "other_income": 3084,
+                "interest": 33,
+                "depreciation": 1888,
+                "profit_before_tax": 31840,
+                "tax_percentage": "24",
+                "net_profit": 24338,
+                "eps": 62,
+                "dividend_payout": "35"
+            },
+            {
+                "id": 1189,
+                "company_id": "TCS",
+                "year": "Mar 2017",
+                "sales": 117966,
+                "expenses": 85655,
+                "operating_profit": 32311,
+                "opm_percentage": 27,
+                "other_income": 4221,
+                "interest": 32,
+                "depreciation": 1987,
+                "profit_before_tax": 34513,
+                "tax_percentage": "24",
+                "net_profit": 26357,
+                "eps": 67,
+                "dividend_payout": "35"
+            },
+            {
+                "id": 1190,
+                "company_id": "TCS",
+                "year": "Mar 2018",
+                "sales": 123104,
+                "expenses": 90588,
+                "operating_profit": 32516,
+                "opm_percentage": 26,
+                "other_income": 3642,
+                "interest": 52,
+                "depreciation": 2014,
+                "profit_before_tax": 34092,
+                "tax_percentage": "24",
+                "net_profit": 25880,
+                "eps": 67,
+                "dividend_payout": "37"
+            },
+            {
+                "id": 1191,
+                "company_id": "TCS",
+                "year": "Mar 2019",
+                "sales": 146463,
+                "expenses": 106957,
+                "operating_profit": 39506,
+                "opm_percentage": 27,
+                "other_income": 4311,
+                "interest": 198,
+                "depreciation": 2056,
+                "profit_before_tax": 41563,
+                "tax_percentage": "24",
+                "net_profit": 31562,
+                "eps": 84,
+                "dividend_payout": "36"
+            },
+            {
+                "id": 1192,
+                "company_id": "TCS",
+                "year": "Mar 2020",
+                "sales": 156949,
+                "expenses": 114840,
+                "operating_profit": 42109,
+                "opm_percentage": 27,
+                "other_income": 4592,
+                "interest": 924,
+                "depreciation": 3529,
+                "profit_before_tax": 42248,
+                "tax_percentage": "23",
+                "net_profit": 32447,
+                "eps": 86,
+                "dividend_payout": "85"
+            },
+            {
+                "id": 1193,
+                "company_id": "TCS",
+                "year": "Mar 2021",
+                "sales": 164177,
+                "expenses": 117631,
+                "operating_profit": 46546,
+                "opm_percentage": 28,
+                "other_income": 1916,
+                "interest": 637,
+                "depreciation": 4065,
+                "profit_before_tax": 43760,
+                "tax_percentage": "26",
+                "net_profit": 32562,
+                "eps": 88,
+                "dividend_payout": "43"
+            },
+            {
+                "id": 1194,
+                "company_id": "TCS",
+                "year": "Mar 2022",
+                "sales": 191754,
+                "expenses": 138697,
+                "operating_profit": 53057,
+                "opm_percentage": 28,
+                "other_income": 4018,
+                "interest": 784,
+                "depreciation": 4604,
+                "profit_before_tax": 51687,
+                "tax_percentage": "26",
+                "net_profit": 38449,
+                "eps": 105,
+                "dividend_payout": "41"
+            },
+            {
+                "id": 1195,
+                "company_id": "TCS",
+                "year": "Mar 2023",
+                "sales": 225458,
+                "expenses": 166199,
+                "operating_profit": 59259,
+                "opm_percentage": 26,
+                "other_income": 3449,
+                "interest": 779,
+                "depreciation": 5022,
+                "profit_before_tax": 56907,
+                "tax_percentage": "26",
+                "net_profit": 42303,
+                "eps": 115,
+                "dividend_payout": "100"
+            },
+            {
+                "id": 1196,
+                "company_id": "TCS",
+                "year": "Mar 2024",
+                "sales": 240893,
+                "expenses": 176597,
+                "operating_profit": 64296,
+                "opm_percentage": 27,
+                "other_income": 3464,
+                "interest": 778,
+                "depreciation": 4985,
+                "profit_before_tax": 61997,
+                "tax_percentage": "26",
+                "net_profit": 46099,
+                "eps": 127,
+                "dividend_payout": "58"
+            },
+            {
+                "id": 1197,
+                "company_id": "TCS",
+                "year": "TTM",
+                "sales": 252082,
+                "expenses": 184491,
+                "operating_profit": 67591,
+                "opm_percentage": 27,
+                "other_income": 4091,
+                "interest": 795,
+                "depreciation": 5109,
+                "profit_before_tax": 65778,
+                "tax_percentage": null,
+                "net_profit": 49006,
+                "eps": 135,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [
+            {
+                "id": "13",
+                "company_id": "TCS",
+                "compounded_sales_growth": "10 Years:     11%             ",
+                "compounded_profit_growth": "10 Years:          9%",
+                "stock_price_cagr": "    10 Years:      14%",
+                "roe": "10 Years:       40%"
+            },
+            {
+                "id": "14",
+                "company_id": "TCS",
+                "compounded_sales_growth": "5 Years:       10%             ",
+                "compounded_profit_growth": "5 Years:            8%",
+                "stock_price_cagr": "      5 Years:      16%",
+                "roe": "5 Years:          44%"
+            },
+            {
+                "id": "15",
+                "company_id": "TCS",
+                "compounded_sales_growth": "3 Years:       14%             ",
+                "compounded_profit_growth": "3 Years:            12%",
+                "stock_price_cagr": "      3 Years:      8%",
+                "roe": "3 Years:          47%"
+            },
+            {
+                "id": "16",
+                "company_id": "TCS",
+                "compounded_sales_growth": "TTM:            5%             ",
+                "compounded_profit_growth": "TTM:                 8%",
+                "stock_price_cagr": "      1 Year:       16%",
+                "roe": "Last Year:       52%"
+            }
+        ],
+        "documents": [
+            {
+                "id": 1362,
+                "company_id": "TCS",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d57e49b6-fd89-4fa8-b591-4f590100db1e.pdf"
+            },
+            {
+                "id": 1363,
+                "company_id": "TCS",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//3837c1b7-9308-436d-9636-1d6856edf74e.pdf"
+            },
+            {
+                "id": 1364,
+                "company_id": "TCS",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/72996532540_17_06_22.pdf"
+            },
+            {
+                "id": 1365,
+                "company_id": "TCS",
+                "Year": 2021,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/68468532540_25_05_21.pdf"
+            },
+            {
+                "id": 1366,
+                "company_id": "TCS",
+                "Year": 2020,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400320.pdf"
+            },
+            {
+                "id": 1367,
+                "company_id": "TCS",
+                "Year": 2019,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400319.pdf"
+            },
+            {
+                "id": 1368,
+                "company_id": "TCS",
+                "Year": 2018,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400318.pdf"
+            },
+            {
+                "id": 1369,
+                "company_id": "TCS",
+                "Year": 2017,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400317.pdf"
+            },
+            {
+                "id": 1370,
+                "company_id": "TCS",
+                "Year": 2016,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400316.pdf"
+            },
+            {
+                "id": 1371,
+                "company_id": "TCS",
+                "Year": 2015,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400315.pdf"
+            },
+            {
+                "id": 1372,
+                "company_id": "TCS",
+                "Year": 2014,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400314.pdf"
+            },
+            {
+                "id": 1373,
+                "company_id": "TCS",
+                "Year": 2013,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400313.pdf"
+            },
+            {
+                "id": 1374,
+                "company_id": "TCS",
+                "Year": 2012,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400312.pdf"
+            },
+            {
+                "id": 1375,
+                "company_id": "TCS",
+                "Year": 2011,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400311.pdf"
+            },
+            {
+                "id": 1376,
+                "company_id": "TCS",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1377,
+                "company_id": "TCS",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

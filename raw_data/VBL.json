@@ -1,0 +1,452 @@
+{
+    "company": {
+        "id": "VBL",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/VBL.png",
+        "company_name": "Varun Beverages Ltd",
+        "chart_link": "https://in.tradingview.com/chart/qGsydD2w/?symbol=NSE%3AAMBUJACEM.T0",
+        "about_company": "Varun Beverages Ltd has been associated with PepsiCo since the 1990s and is a key player in beverage industry and one of the largest franchisee of PepsiCo in the world. The company produces and distributes a wide range of carbonated soft drinks, non-carbonated drinks and packaged water sold under trademarks owned by PepsiCo.\r\nPepsiCo brands produced and sold by the company include Pepsi, Seven-up, Mirinda Orange, Mountain Dew, Tropicana Juices and many more. [1]\r\n\r\n",
+        "website": "https://www.varunbeverages.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=VBL",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/varun-beverages-ltd/VBL/540180/",
+        "face_value": 2,
+        "book_value": 26,
+        "roce_percentage": "28.80",
+        "roe_percentage": "35.20"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 1206,
+                "company_id": "VBL",
+                "year": "Dec 2012",
+                "operating_activity": 280,
+                "investing_activity": -507,
+                "financing_activity": 229,
+                "net_cash_flow": 3
+            },
+            {
+                "id": 1207,
+                "company_id": "VBL",
+                "year": "Dec 2013",
+                "operating_activity": 297,
+                "investing_activity": -574,
+                "financing_activity": 274,
+                "net_cash_flow": -2
+            },
+            {
+                "id": 1208,
+                "company_id": "VBL",
+                "year": "Dec 2014",
+                "operating_activity": 431,
+                "investing_activity": -500,
+                "financing_activity": 58,
+                "net_cash_flow": -11
+            },
+            {
+                "id": 1209,
+                "company_id": "VBL",
+                "year": "Dec 2015",
+                "operating_activity": 555,
+                "investing_activity": -300,
+                "financing_activity": -236,
+                "net_cash_flow": 19
+            },
+            {
+                "id": 1210,
+                "company_id": "VBL",
+                "year": "Dec 2016",
+                "operating_activity": 826,
+                "investing_activity": -1048,
+                "financing_activity": 230,
+                "net_cash_flow": 8
+            },
+            {
+                "id": 1211,
+                "company_id": "VBL",
+                "year": "Dec 2017",
+                "operating_activity": 620,
+                "investing_activity": -746,
+                "financing_activity": 159,
+                "net_cash_flow": 32
+            },
+            {
+                "id": 1212,
+                "company_id": "VBL",
+                "year": "Dec 2018",
+                "operating_activity": 1000,
+                "investing_activity": -937,
+                "financing_activity": -84,
+                "net_cash_flow": -22
+            },
+            {
+                "id": 1213,
+                "company_id": "VBL",
+                "year": "Dec 2019",
+                "operating_activity": 1308,
+                "investing_activity": -2320,
+                "financing_activity": 1107,
+                "net_cash_flow": 95
+            },
+            {
+                "id": 1214,
+                "company_id": "VBL",
+                "year": "Dec 2020",
+                "operating_activity": 1012,
+                "investing_activity": -472,
+                "financing_activity": -574,
+                "net_cash_flow": -33
+            },
+            {
+                "id": 1215,
+                "company_id": "VBL",
+                "year": "Dec 2021",
+                "operating_activity": 1231,
+                "investing_activity": -1008,
+                "financing_activity": -178,
+                "net_cash_flow": 46
+            },
+            {
+                "id": 1216,
+                "company_id": "VBL",
+                "year": "Dec 2022",
+                "operating_activity": 1790,
+                "investing_activity": -1769,
+                "financing_activity": -18,
+                "net_cash_flow": 4
+            },
+            {
+                "id": 1217,
+                "company_id": "VBL",
+                "year": "Dec 2023",
+                "operating_activity": 2391,
+                "investing_activity": -3288,
+                "financing_activity": 985,
+                "net_cash_flow": 88
+            }
+        ],
+        "prosandcons": [],
+        "balancesheet": [],
+        "profitandloss": [
+            {
+                "id": 1302,
+                "company_id": "VBL",
+                "year": "Dec 2012",
+                "sales": 1800,
+                "expenses": 1572,
+                "operating_profit": 228,
+                "opm_percentage": 13,
+                "other_income": 44,
+                "interest": 116,
+                "depreciation": 136,
+                "profit_before_tax": 21,
+                "tax_percentage": "-20",
+                "net_profit": 25,
+                "eps": 2,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1303,
+                "company_id": "VBL",
+                "year": "Dec 2013",
+                "sales": 2115,
+                "expenses": 1824,
+                "operating_profit": 291,
+                "opm_percentage": 14,
+                "other_income": 19,
+                "interest": 171,
+                "depreciation": 184,
+                "profit_before_tax": -46,
+                "tax_percentage": "-11",
+                "net_profit": -40,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1304,
+                "company_id": "VBL",
+                "year": "Dec 2014",
+                "sales": 2502,
+                "expenses": 2116,
+                "operating_profit": 387,
+                "opm_percentage": 15,
+                "other_income": 14,
+                "interest": 187,
+                "depreciation": 210,
+                "profit_before_tax": 4,
+                "tax_percentage": "99",
+                "net_profit": -20,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1305,
+                "company_id": "VBL",
+                "year": "Dec 2015",
+                "sales": 3394,
+                "expenses": 2752,
+                "operating_profit": 642,
+                "opm_percentage": 19,
+                "other_income": 36,
+                "interest": 170,
+                "depreciation": 317,
+                "profit_before_tax": 191,
+                "tax_percentage": "41",
+                "net_profit": 113,
+                "eps": 1,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1306,
+                "company_id": "VBL",
+                "year": "Dec 2016",
+                "sales": 3861,
+                "expenses": 3052,
+                "operating_profit": 810,
+                "opm_percentage": 21,
+                "other_income": 27,
+                "interest": 435,
+                "depreciation": 322,
+                "profit_before_tax": 79,
+                "tax_percentage": "39",
+                "net_profit": 48,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1307,
+                "company_id": "VBL",
+                "year": "Dec 2017",
+                "sales": 4004,
+                "expenses": 3165,
+                "operating_profit": 838,
+                "opm_percentage": 21,
+                "other_income": 14,
+                "interest": 215,
+                "depreciation": 347,
+                "profit_before_tax": 291,
+                "tax_percentage": "26",
+                "net_profit": 214,
+                "eps": 1,
+                "dividend_payout": "22"
+            },
+            {
+                "id": 1308,
+                "company_id": "VBL",
+                "year": "Dec 2018",
+                "sales": 5105,
+                "expenses": 4069,
+                "operating_profit": 1036,
+                "opm_percentage": 20,
+                "other_income": 6,
+                "interest": 223,
+                "depreciation": 385,
+                "profit_before_tax": 434,
+                "tax_percentage": "31",
+                "net_profit": 300,
+                "eps": 1,
+                "dividend_payout": "16"
+            },
+            {
+                "id": 1309,
+                "company_id": "VBL",
+                "year": "Dec 2019",
+                "sales": 7130,
+                "expenses": 5667,
+                "operating_profit": 1462,
+                "opm_percentage": 21,
+                "other_income": 47,
+                "interest": 324,
+                "depreciation": 489,
+                "profit_before_tax": 696,
+                "tax_percentage": "32",
+                "net_profit": 472,
+                "eps": 1,
+                "dividend_payout": "15"
+            },
+            {
+                "id": 1310,
+                "company_id": "VBL",
+                "year": "Dec 2020",
+                "sales": 6450,
+                "expenses": 5235,
+                "operating_profit": 1215,
+                "opm_percentage": 19,
+                "other_income": -30,
+                "interest": 294,
+                "depreciation": 529,
+                "profit_before_tax": 363,
+                "tax_percentage": "1",
+                "net_profit": 357,
+                "eps": 1,
+                "dividend_payout": "22"
+            },
+            {
+                "id": 1311,
+                "company_id": "VBL",
+                "year": "Dec 2021",
+                "sales": 8823,
+                "expenses": 7129,
+                "operating_profit": 1694,
+                "opm_percentage": 19,
+                "other_income": 51,
+                "interest": 207,
+                "depreciation": 531,
+                "profit_before_tax": 1007,
+                "tax_percentage": "26",
+                "net_profit": 746,
+                "eps": 2,
+                "dividend_payout": "16"
+            },
+            {
+                "id": 1312,
+                "company_id": "VBL",
+                "year": "Dec 2022",
+                "sales": 13173,
+                "expenses": 10310,
+                "operating_profit": 2863,
+                "opm_percentage": 22,
+                "other_income": -18,
+                "interest": 204,
+                "depreciation": 617,
+                "profit_before_tax": 2024,
+                "tax_percentage": "23",
+                "net_profit": 1550,
+                "eps": 5,
+                "dividend_payout": "15"
+            },
+            {
+                "id": 1313,
+                "company_id": "VBL",
+                "year": "Dec 2023",
+                "sales": 16043,
+                "expenses": 12326,
+                "operating_profit": 3717,
+                "opm_percentage": 23,
+                "other_income": -5,
+                "interest": 292,
+                "depreciation": 681,
+                "profit_before_tax": 2739,
+                "tax_percentage": "23",
+                "net_profit": 2102,
+                "eps": 6,
+                "dividend_payout": "16"
+            },
+            {
+                "id": 1314,
+                "company_id": "VBL",
+                "year": "TTM",
+                "sales": 18987,
+                "expenses": 14438,
+                "operating_profit": 4549,
+                "opm_percentage": 24,
+                "other_income": 86,
+                "interest": 415,
+                "depreciation": 853,
+                "profit_before_tax": 3367,
+                "tax_percentage": null,
+                "net_profit": 2582,
+                "eps": 8,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [],
+        "documents": [
+            {
+                "id": 1506,
+                "company_id": "VBL",
+                "Year": 2024,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1507,
+                "company_id": "VBL",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2a9652ba-0b38-432b-8e1c-04a3c6a60cfd.pdf"
+            },
+            {
+                "id": 1508,
+                "company_id": "VBL",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//357821ff-40cf-4624-82fa-1c19624da856.pdf"
+            },
+            {
+                "id": 1509,
+                "company_id": "VBL",
+                "Year": 2021,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/72941540180.pdf"
+            },
+            {
+                "id": 1510,
+                "company_id": "VBL",
+                "Year": 2020,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/68364540180.pdf"
+            },
+            {
+                "id": 1511,
+                "company_id": "VBL",
+                "Year": 2019,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/5401801219.pdf"
+            },
+            {
+                "id": 1512,
+                "company_id": "VBL",
+                "Year": 2018,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/5401801218.pdf"
+            },
+            {
+                "id": 1513,
+                "company_id": "VBL",
+                "Year": 2017,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/5401801217.pdf"
+            },
+            {
+                "id": 1514,
+                "company_id": "VBL",
+                "Year": 2016,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/540180/5401801216.pdf"
+            },
+            {
+                "id": 1515,
+                "company_id": "VBL",
+                "Year": 2015,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1516,
+                "company_id": "VBL",
+                "Year": 2014,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1517,
+                "company_id": "VBL",
+                "Year": 2013,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1518,
+                "company_id": "VBL",
+                "Year": 2012,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1519,
+                "company_id": "VBL",
+                "Year": 2011,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1520,
+                "company_id": "VBL",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1521,
+                "company_id": "VBL",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

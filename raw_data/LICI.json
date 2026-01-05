@@ -1,0 +1,402 @@
+{
+    "company": {
+        "id": "LICI",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/LICI.png",
+        "company_name": "Life Insurance Corporation of India",
+        "chart_link": "https://in.tradingview.com/chart/?symbol=NSE%3ALICI",
+        "about_company": "Life Insurance Corporation of India is an Indian multinational public sector life insurance company headquartered in Mumbai",
+        "website": "https://www.licindia.in/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=LICI",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/life-insurance-corporation-of-india/lici/543526/",
+        "face_value": 10,
+        "book_value": 154,
+        "roce_percentage": "63.79",
+        "roe_percentage": "63.61"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 762,
+                "company_id": "LICI",
+                "year": "Mar 2019",
+                "operating_activity": 13274,
+                "investing_activity": 9636,
+                "financing_activity": -13700,
+                "net_cash_flow": 9210
+            },
+            {
+                "id": 763,
+                "company_id": "LICI",
+                "year": "Mar 2020",
+                "operating_activity": 54367,
+                "investing_activity": -40415,
+                "financing_activity": -18664,
+                "net_cash_flow": -4712
+            },
+            {
+                "id": 764,
+                "company_id": "LICI",
+                "year": "Mar 2021",
+                "operating_activity": 80602,
+                "investing_activity": 148447,
+                "financing_activity": -256125,
+                "net_cash_flow": -27077
+            },
+            {
+                "id": 765,
+                "company_id": "LICI",
+                "year": "Mar 2022",
+                "operating_activity": -3783,
+                "investing_activity": 12531,
+                "financing_activity": 0,
+                "net_cash_flow": 8748
+            },
+            {
+                "id": 766,
+                "company_id": "LICI",
+                "year": "Mar 2023",
+                "operating_activity": 54519,
+                "investing_activity": -52848,
+                "financing_activity": -949,
+                "net_cash_flow": 722
+            },
+            {
+                "id": 767,
+                "company_id": "LICI",
+                "year": "Mar 2024",
+                "operating_activity": 26122,
+                "investing_activity": -25269,
+                "financing_activity": -4427,
+                "net_cash_flow": -3574
+            }
+        ],
+        "prosandcons": [],
+        "balancesheet": [
+            {
+                "id": 988,
+                "company_id": "LICI",
+                "year": "Mar 2019",
+                "equity_capital": "100.0",
+                "reserves": 710,
+                "borrowings": 269401,
+                "other_liabilities": 3157039,
+                "total_liabilities": 3427249,
+                "fixed_assets": 25194,
+                "cwip": 710,
+                "investments": 2900287,
+                "other_asset": 501059,
+                "total_assets": 3427249
+            },
+            {
+                "id": 989,
+                "company_id": "LICI",
+                "year": "Mar 2020",
+                "equity_capital": "100.0",
+                "reserves": 902,
+                "borrowings": 253414,
+                "other_liabilities": 3245419,
+                "total_liabilities": 3499834,
+                "fixed_assets": 28216,
+                "cwip": 734,
+                "investments": 2976100,
+                "other_asset": 494784,
+                "total_assets": 3499834
+            },
+            {
+                "id": 990,
+                "company_id": "LICI",
+                "year": "Mar 2021",
+                "equity_capital": "100.0",
+                "reserves": 6784,
+                "borrowings": 4,
+                "other_liabilities": 3822637,
+                "total_liabilities": 3829524,
+                "fixed_assets": 17723,
+                "cwip": 148,
+                "investments": 3517445,
+                "other_asset": 294208,
+                "total_assets": 3829524
+            },
+            {
+                "id": 991,
+                "company_id": "LICI",
+                "year": "Mar 2022",
+                "equity_capital": "6325.0",
+                "reserves": 5013,
+                "borrowings": 1,
+                "other_liabilities": 4242719,
+                "total_liabilities": 4254059,
+                "fixed_assets": 17770,
+                "cwip": 199,
+                "investments": 3926212,
+                "other_asset": 309878,
+                "total_assets": 4254059
+            },
+            {
+                "id": 992,
+                "company_id": "LICI",
+                "year": "Mar 2023",
+                "equity_capital": "6325.0",
+                "reserves": 39908,
+                "borrowings": 0,
+                "other_liabilities": 4532258,
+                "total_liabilities": 4578491,
+                "fixed_assets": 20473,
+                "cwip": 331,
+                "investments": 4243008,
+                "other_asset": 314678,
+                "total_assets": 4578491
+            },
+            {
+                "id": 993,
+                "company_id": "LICI",
+                "year": "Mar 2024",
+                "equity_capital": "6325.0",
+                "reserves": 76422,
+                "borrowings": 0,
+                "other_liabilities": 5233300,
+                "total_liabilities": 5316047,
+                "fixed_assets": 20667,
+                "cwip": 403,
+                "investments": 4976133,
+                "other_asset": 318844,
+                "total_assets": 5316047
+            },
+            {
+                "id": 994,
+                "company_id": "LICI",
+                "year": "Sep 2024",
+                "equity_capital": "6325.0",
+                "reserves": 91312,
+                "borrowings": 10,
+                "other_liabilities": 5621474,
+                "total_liabilities": 5719121,
+                "fixed_assets": 4197,
+                "cwip": 0,
+                "investments": 5413779,
+                "other_asset": 301145,
+                "total_assets": 5719121
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 828,
+                "company_id": "LICI",
+                "year": "Mar 2019",
+                "sales": 571508,
+                "expenses": 565587,
+                "operating_profit": 5920,
+                "opm_percentage": 1,
+                "other_income": 2615,
+                "interest": 0,
+                "depreciation": 336,
+                "profit_before_tax": 8199,
+                "tax_percentage": "68",
+                "net_profit": 2627,
+                "eps": null,
+                "dividend_payout": "2"
+            },
+            {
+                "id": 829,
+                "company_id": "LICI",
+                "year": "Mar 2020",
+                "sales": 628043,
+                "expenses": 634989,
+                "operating_profit": -6947,
+                "opm_percentage": -1,
+                "other_income": 20870,
+                "interest": 0,
+                "depreciation": 379,
+                "profit_before_tax": 13544,
+                "tax_percentage": "80",
+                "net_profit": 2710,
+                "eps": null,
+                "dividend_payout": "2"
+            },
+            {
+                "id": 830,
+                "company_id": "LICI",
+                "year": "Mar 2021",
+                "sales": 690914,
+                "expenses": 691166,
+                "operating_profit": -252,
+                "opm_percentage": 0,
+                "other_income": 12820,
+                "interest": 0,
+                "depreciation": 417,
+                "profit_before_tax": 12151,
+                "tax_percentage": "76",
+                "net_profit": 2974,
+                "eps": 7,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 831,
+                "company_id": "LICI",
+                "year": "Mar 2022",
+                "sales": 723606,
+                "expenses": 720280,
+                "operating_profit": 3326,
+                "opm_percentage": 0,
+                "other_income": 9248,
+                "interest": 0,
+                "depreciation": 436,
+                "profit_before_tax": 12138,
+                "tax_percentage": "66",
+                "net_profit": 4125,
+                "eps": 57,
+                "dividend_payout": "23"
+            },
+            {
+                "id": 832,
+                "company_id": "LICI",
+                "year": "Mar 2023",
+                "sales": 784628,
+                "expenses": 750420,
+                "operating_profit": 34207,
+                "opm_percentage": 4,
+                "other_income": 7800,
+                "interest": 77,
+                "depreciation": 466,
+                "profit_before_tax": 41463,
+                "tax_percentage": "13",
+                "net_profit": 35997,
+                "eps": 65,
+                "dividend_payout": "5"
+            },
+            {
+                "id": 833,
+                "company_id": "LICI",
+                "year": "Mar 2024",
+                "sales": 845966,
+                "expenses": 813188,
+                "operating_profit": 32779,
+                "opm_percentage": 4,
+                "other_income": 14829,
+                "interest": 128,
+                "depreciation": 466,
+                "profit_before_tax": 47014,
+                "tax_percentage": "13",
+                "net_profit": 40916,
+                "eps": 66,
+                "dividend_payout": "15"
+            },
+            {
+                "id": 834,
+                "company_id": "LICI",
+                "year": "TTM",
+                "sales": 896106,
+                "expenses": 870255,
+                "operating_profit": 25851,
+                "opm_percentage": 3,
+                "other_income": 16250,
+                "interest": 0,
+                "depreciation": 0,
+                "profit_before_tax": 42102,
+                "tax_percentage": null,
+                "net_profit": 41468,
+                "eps": null,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [],
+        "documents": [
+            {
+                "id": 914,
+                "company_id": "LICI",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/764916b5-38e0-42fc-a78e-764903a5e7ec.pdf"
+            },
+            {
+                "id": 915,
+                "company_id": "LICI",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//d4bd272a-992b-436a-abd9-6551a0ef5c03.pdf"
+            },
+            {
+                "id": 916,
+                "company_id": "LICI",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/543526/75150543526.pdf"
+            },
+            {
+                "id": 917,
+                "company_id": "LICI",
+                "Year": 2021,
+                "Annual_Report": "https://licindia.in/getattachment/Bottom-Links/annual-report/LIC-Annual-Report-2021.pdf.aspx"
+            },
+            {
+                "id": 918,
+                "company_id": "LICI",
+                "Year": 2020,
+                "Annual_Report": "https://licindia.in/getattachment/Bottom-Links/annual-report/LIC-Annual-Report-2019-20.pdf.aspx"
+            },
+            {
+                "id": 919,
+                "company_id": "LICI",
+                "Year": 2019,
+                "Annual_Report": "https://licindia.in/getattachment/Bottom-Links/annual-report/LIC-AR-2018-19-Final-web.pdf.aspx"
+            },
+            {
+                "id": 920,
+                "company_id": "LICI",
+                "Year": 2018,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 921,
+                "company_id": "LICI",
+                "Year": 2017,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 922,
+                "company_id": "LICI",
+                "Year": 2016,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 923,
+                "company_id": "LICI",
+                "Year": 2015,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 924,
+                "company_id": "LICI",
+                "Year": 2014,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 925,
+                "company_id": "LICI",
+                "Year": 2013,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 926,
+                "company_id": "LICI",
+                "Year": 2012,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 927,
+                "company_id": "LICI",
+                "Year": 2011,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 928,
+                "company_id": "LICI",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 929,
+                "company_id": "LICI",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

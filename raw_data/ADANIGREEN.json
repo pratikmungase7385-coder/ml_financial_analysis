@@ -1,0 +1,484 @@
+{
+    "company": {
+        "id": "ADANIGREEN",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/ADANIGREEN.png",
+        "company_name": "Adani Green Energy Ltd",
+        "chart_link": "https://in.tradingview.com/chart/?symbol=NSE%3AADANIGREEN",
+        "about_company": "Adani Green Energy Limited, incorporated in 2015, is a holding company of several subsidiaries carrying business of renewable power generation within the group and is primarily involved in renewable power generation and other ancillary activities.",
+        "website": "http://www.adanigreenenergy.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=ADANIGREEN",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/adani-green-energy-ltd/ADANIGREEN/541450/",
+        "face_value": 10,
+        "book_value": 67,
+        "roce_percentage": "96.50",
+        "roe_percentage": "14.70"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 107,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2017",
+                "operating_activity": 28,
+                "investing_activity": -1511,
+                "financing_activity": 1559,
+                "net_cash_flow": 76
+            },
+            {
+                "id": 108,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2018",
+                "operating_activity": 649,
+                "investing_activity": -4428,
+                "financing_activity": 3942,
+                "net_cash_flow": 162
+            },
+            {
+                "id": 109,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2019",
+                "operating_activity": 1625,
+                "investing_activity": -2666,
+                "financing_activity": 1045,
+                "net_cash_flow": 3
+            },
+            {
+                "id": 110,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2020",
+                "operating_activity": 1965,
+                "investing_activity": -3743,
+                "financing_activity": 2161,
+                "net_cash_flow": 383
+            },
+            {
+                "id": 111,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2021",
+                "operating_activity": 1601,
+                "investing_activity": -9137,
+                "financing_activity": 7083,
+                "net_cash_flow": -453
+            },
+            {
+                "id": 112,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2022",
+                "operating_activity": 3127,
+                "investing_activity": -18730,
+                "financing_activity": 15986,
+                "net_cash_flow": 383
+            },
+            {
+                "id": 113,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2023",
+                "operating_activity": 7265,
+                "investing_activity": -3857,
+                "financing_activity": -2973,
+                "net_cash_flow": 435
+            },
+            {
+                "id": 114,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2024",
+                "operating_activity": 7713,
+                "investing_activity": -21060,
+                "financing_activity": 13953,
+                "net_cash_flow": 606
+            }
+        ],
+        "prosandcons": [],
+        "balancesheet": [
+            {
+                "id": 192,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2017",
+                "equity_capital": "1274.0",
+                "reserves": -71,
+                "borrowings": 4347,
+                "other_liabilities": 610,
+                "total_liabilities": 6160,
+                "fixed_assets": 4341,
+                "cwip": 267,
+                "investments": 26,
+                "other_asset": 1525,
+                "total_assets": 6160
+            },
+            {
+                "id": 193,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2018",
+                "equity_capital": "1564.0",
+                "reserves": -223,
+                "borrowings": 9864,
+                "other_liabilities": 4503,
+                "total_liabilities": 15709,
+                "fixed_assets": 9120,
+                "cwip": 1725,
+                "investments": 87,
+                "other_asset": 4777,
+                "total_assets": 15709
+            },
+            {
+                "id": 194,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2019",
+                "equity_capital": "1564.0",
+                "reserves": 369,
+                "borrowings": 11142,
+                "other_liabilities": 1582,
+                "total_liabilities": 14658,
+                "fixed_assets": 10388,
+                "cwip": 743,
+                "investments": 77,
+                "other_asset": 3449,
+                "total_assets": 14658
+            },
+            {
+                "id": 195,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2020",
+                "equity_capital": "1564.0",
+                "reserves": 793,
+                "borrowings": 14866,
+                "other_liabilities": 1201,
+                "total_liabilities": 18424,
+                "fixed_assets": 12554,
+                "cwip": 1208,
+                "investments": 476,
+                "other_asset": 4186,
+                "total_assets": 18424
+            },
+            {
+                "id": 196,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2021",
+                "equity_capital": "1564.0",
+                "reserves": 636,
+                "borrowings": 24209,
+                "other_liabilities": 2283,
+                "total_liabilities": 28692,
+                "fixed_assets": 16429,
+                "cwip": 4452,
+                "investments": 502,
+                "other_asset": 7309,
+                "total_assets": 28692
+            },
+            {
+                "id": 197,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2022",
+                "equity_capital": "1564.0",
+                "reserves": 1050,
+                "borrowings": 52832,
+                "other_liabilities": 3508,
+                "total_liabilities": 58954,
+                "fixed_assets": 28452,
+                "cwip": 19999,
+                "investments": 574,
+                "other_asset": 10029,
+                "total_assets": 58954
+            },
+            {
+                "id": 198,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2023",
+                "equity_capital": "1584.0",
+                "reserves": 5720,
+                "borrowings": 54223,
+                "other_liabilities": 5382,
+                "total_liabilities": 66909,
+                "fixed_assets": 48336,
+                "cwip": 5291,
+                "investments": 1149,
+                "other_asset": 12133,
+                "total_assets": 66909
+            },
+            {
+                "id": 199,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2024",
+                "equity_capital": "1584.0",
+                "reserves": 8250,
+                "borrowings": 64858,
+                "other_liabilities": 13394,
+                "total_liabilities": 88086,
+                "fixed_assets": 62284,
+                "cwip": 6427,
+                "investments": 1515,
+                "other_asset": 17860,
+                "total_assets": 88086
+            },
+            {
+                "id": 200,
+                "company_id": "ADANIGREEN",
+                "year": "Sep 2024",
+                "equity_capital": "1584.0",
+                "reserves": 8992,
+                "borrowings": 67430,
+                "other_liabilities": 20252,
+                "total_liabilities": 98258,
+                "fixed_assets": 64632,
+                "cwip": 14617,
+                "investments": 2331,
+                "other_asset": 16678,
+                "total_assets": 98258
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 111,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2017",
+                "sales": 502,
+                "expenses": 98,
+                "operating_profit": 403,
+                "opm_percentage": 80,
+                "other_income": 80,
+                "interest": 334,
+                "depreciation": 333,
+                "profit_before_tax": -184,
+                "tax_percentage": "-75",
+                "net_profit": -47,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 112,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2018",
+                "sales": 1480,
+                "expenses": 637,
+                "operating_profit": 843,
+                "opm_percentage": 57,
+                "other_income": 42,
+                "interest": 552,
+                "depreciation": 543,
+                "profit_before_tax": -210,
+                "tax_percentage": "-35",
+                "net_profit": -138,
+                "eps": -1,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 113,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2019",
+                "sales": 2058,
+                "expenses": 532,
+                "operating_profit": 1526,
+                "opm_percentage": 74,
+                "other_income": 73,
+                "interest": 1121,
+                "depreciation": 1062,
+                "profit_before_tax": -585,
+                "tax_percentage": "-19",
+                "net_profit": -475,
+                "eps": -3,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 114,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2020",
+                "sales": 2549,
+                "expenses": 1098,
+                "operating_profit": 1450,
+                "opm_percentage": 57,
+                "other_income": -111,
+                "interest": 995,
+                "depreciation": 394,
+                "profit_before_tax": -50,
+                "tax_percentage": "23",
+                "net_profit": -68,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 115,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2021",
+                "sales": 3124,
+                "expenses": 883,
+                "operating_profit": 2241,
+                "opm_percentage": 72,
+                "other_income": 391,
+                "interest": 1953,
+                "depreciation": 486,
+                "profit_before_tax": 193,
+                "tax_percentage": "6",
+                "net_profit": 182,
+                "eps": 1,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 116,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2022",
+                "sales": 5133,
+                "expenses": 1621,
+                "operating_profit": 3512,
+                "opm_percentage": 68,
+                "other_income": 507,
+                "interest": 2617,
+                "depreciation": 849,
+                "profit_before_tax": 553,
+                "tax_percentage": "12",
+                "net_profit": 489,
+                "eps": 3,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 117,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2023",
+                "sales": 7776,
+                "expenses": 2806,
+                "operating_profit": 4970,
+                "opm_percentage": 64,
+                "other_income": 667,
+                "interest": 2911,
+                "depreciation": 1300,
+                "profit_before_tax": 1426,
+                "tax_percentage": "32",
+                "net_profit": 973,
+                "eps": 6,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 118,
+                "company_id": "ADANIGREEN",
+                "year": "Mar 2024",
+                "sales": 9220,
+                "expenses": 1902,
+                "operating_profit": 7318,
+                "opm_percentage": 79,
+                "other_income": 1262,
+                "interest": 5006,
+                "depreciation": 1903,
+                "profit_before_tax": 1671,
+                "tax_percentage": "25",
+                "net_profit": 1260,
+                "eps": 7,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 119,
+                "company_id": "ADANIGREEN",
+                "year": "TTM",
+                "sales": 10782,
+                "expenses": 2682,
+                "operating_profit": 8100,
+                "opm_percentage": 75,
+                "other_income": 891,
+                "interest": 4959,
+                "depreciation": 2323,
+                "profit_before_tax": 1709,
+                "tax_percentage": null,
+                "net_profit": 1928,
+                "eps": 9,
+                "dividend_payout": "0"
+            }
+        ],
+        "analysis": [],
+        "documents": [
+            {
+                "id": 49,
+                "company_id": "ADANIGREEN",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f5d2f21e-c8a9-41ec-9c21-448079b9d8f1.pdf"
+            },
+            {
+                "id": 50,
+                "company_id": "ADANIGREEN",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//fe379645-1283-416e-9899-b395c26dee78.pdf"
+            },
+            {
+                "id": 51,
+                "company_id": "ADANIGREEN",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/541450/73444541450.pdf"
+            },
+            {
+                "id": 52,
+                "company_id": "ADANIGREEN",
+                "Year": 2021,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/541450/68601541450.pdf"
+            },
+            {
+                "id": 53,
+                "company_id": "ADANIGREEN",
+                "Year": 2020,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/541450/5414500320.pdf"
+            },
+            {
+                "id": 54,
+                "company_id": "ADANIGREEN",
+                "Year": 2019,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/541450/5414500319.pdf"
+            },
+            {
+                "id": 55,
+                "company_id": "ADANIGREEN",
+                "Year": 2018,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/541450/5414500318.pdf"
+            },
+            {
+                "id": 56,
+                "company_id": "ADANIGREEN",
+                "Year": 2017,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 57,
+                "company_id": "ADANIGREEN",
+                "Year": 2016,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 58,
+                "company_id": "ADANIGREEN",
+                "Year": 2015,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 59,
+                "company_id": "ADANIGREEN",
+                "Year": 2014,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 60,
+                "company_id": "ADANIGREEN",
+                "Year": 2013,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 61,
+                "company_id": "ADANIGREEN",
+                "Year": 2012,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 62,
+                "company_id": "ADANIGREEN",
+                "Year": 2011,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 63,
+                "company_id": "ADANIGREEN",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 64,
+                "company_id": "ADANIGREEN",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

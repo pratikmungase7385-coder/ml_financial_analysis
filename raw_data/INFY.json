@@ -1,0 +1,694 @@
+{
+    "company": {
+        "id": "INFY",
+        "company_logo": "https://images.5paisa.com/MarketIcons/INFY.png",
+        "company_name": "Infosys Ltd",
+        "chart_link": "https://in.tradingview.com/chart/?symbol=NSE%3AINFY",
+        "about_company": "Infosys Ltd provides consulting, technology, outsourcing and next-generation digital services to enable clients to execute strategies for their digital transformation",
+        "website": "http://www.infosys.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=INFY",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/infosys-ltd/INFY/500209/",
+        "face_value": 5,
+        "book_value": 218,
+        "roce_percentage": "40.00",
+        "roe_percentage": "31.80"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 657,
+                "company_id": "INFY",
+                "year": "Mar 2013",
+                "operating_activity": 7373,
+                "investing_activity": -2922,
+                "financing_activity": -3210,
+                "net_cash_flow": 1241
+            },
+            {
+                "id": 658,
+                "company_id": "INFY",
+                "year": "Mar 2014",
+                "operating_activity": 9825,
+                "investing_activity": -2563,
+                "financing_activity": -3144,
+                "net_cash_flow": 4118
+            },
+            {
+                "id": 659,
+                "company_id": "INFY",
+                "year": "Mar 2015",
+                "operating_activity": 8353,
+                "investing_activity": 999,
+                "financing_activity": -4935,
+                "net_cash_flow": 4417
+            },
+            {
+                "id": 660,
+                "company_id": "INFY",
+                "year": "Mar 2016",
+                "operating_activity": 10028,
+                "investing_activity": -885,
+                "financing_activity": -6813,
+                "net_cash_flow": 2330
+            },
+            {
+                "id": 661,
+                "company_id": "INFY",
+                "year": "Mar 2017",
+                "operating_activity": 11531,
+                "investing_activity": -14664,
+                "financing_activity": -6939,
+                "net_cash_flow": -10072
+            },
+            {
+                "id": 662,
+                "company_id": "INFY",
+                "year": "Mar 2018",
+                "operating_activity": 13218,
+                "investing_activity": 4533,
+                "financing_activity": -20505,
+                "net_cash_flow": -2754
+            },
+            {
+                "id": 663,
+                "company_id": "INFY",
+                "year": "Mar 2019",
+                "operating_activity": 14841,
+                "investing_activity": -632,
+                "financing_activity": -14512,
+                "net_cash_flow": -303
+            },
+            {
+                "id": 664,
+                "company_id": "INFY",
+                "year": "Mar 2020",
+                "operating_activity": 17003,
+                "investing_activity": -331,
+                "financing_activity": -17591,
+                "net_cash_flow": -919
+            },
+            {
+                "id": 665,
+                "company_id": "INFY",
+                "year": "Mar 2021",
+                "operating_activity": 23224,
+                "investing_activity": -7373,
+                "financing_activity": -9786,
+                "net_cash_flow": 6065
+            },
+            {
+                "id": 666,
+                "company_id": "INFY",
+                "year": "Mar 2022",
+                "operating_activity": 23885,
+                "investing_activity": -6485,
+                "financing_activity": -24642,
+                "net_cash_flow": -7242
+            },
+            {
+                "id": 667,
+                "company_id": "INFY",
+                "year": "Mar 2023",
+                "operating_activity": 22467,
+                "investing_activity": -1071,
+                "financing_activity": -26695,
+                "net_cash_flow": -5299
+            },
+            {
+                "id": 668,
+                "company_id": "INFY",
+                "year": "Mar 2024",
+                "operating_activity": 25210,
+                "investing_activity": -5093,
+                "financing_activity": -17504,
+                "net_cash_flow": 2613
+            }
+        ],
+        "prosandcons": [
+            {
+                "id": 10,
+                "company_id": "INFY",
+                "pros": "Company has a good return on equity (ROE) track record: 3 Years ROE 30.9%",
+                "cons": "Stock is trading at 9.03 times its book value"
+            },
+            {
+                "id": 11,
+                "company_id": "INFY",
+                "pros": "Company has been maintaining a healthy dividend payout of 63.3%",
+                "cons": "Promoter holding is low: 14.4%"
+            }
+        ],
+        "balancesheet": [
+            {
+                "id": 782,
+                "company_id": "INFY",
+                "year": "Mar 2013",
+                "equity_capital": "286.0",
+                "reserves": 37708,
+                "borrowings": 0,
+                "other_liabilities": 8281,
+                "total_liabilities": 46275,
+                "fixed_assets": 7139,
+                "cwip": 1140,
+                "investments": 2116,
+                "other_asset": 35880,
+                "total_assets": 46275
+            },
+            {
+                "id": 783,
+                "company_id": "INFY",
+                "year": "Mar 2014",
+                "equity_capital": "286.0",
+                "reserves": 44244,
+                "borrowings": 0,
+                "other_liabilities": 12436,
+                "total_liabilities": 56966,
+                "fixed_assets": 8378,
+                "cwip": 961,
+                "investments": 4331,
+                "other_asset": 43296,
+                "total_assets": 56966
+            },
+            {
+                "id": 784,
+                "company_id": "INFY",
+                "year": "Mar 2015",
+                "equity_capital": "572.0",
+                "reserves": 50164,
+                "borrowings": 0,
+                "other_liabilities": 15553,
+                "total_liabilities": 66289,
+                "fixed_assets": 11346,
+                "cwip": 776,
+                "investments": 2270,
+                "other_asset": 51897,
+                "total_assets": 66289
+            },
+            {
+                "id": 785,
+                "company_id": "INFY",
+                "year": "Mar 2016",
+                "equity_capital": "1144.0",
+                "reserves": 60600,
+                "borrowings": 0,
+                "other_liabilities": 13354,
+                "total_liabilities": 75098,
+                "fixed_assets": 13386,
+                "cwip": 960,
+                "investments": 1892,
+                "other_asset": 58860,
+                "total_assets": 75098
+            },
+            {
+                "id": 786,
+                "company_id": "INFY",
+                "year": "Mar 2017",
+                "equity_capital": "1144.0",
+                "reserves": 67838,
+                "borrowings": 0,
+                "other_liabilities": 14166,
+                "total_liabilities": 83148,
+                "fixed_assets": 14179,
+                "cwip": 1365,
+                "investments": 16423,
+                "other_asset": 51181,
+                "total_assets": 83148
+            },
+            {
+                "id": 787,
+                "company_id": "INFY",
+                "year": "Mar 2018",
+                "equity_capital": "1088.0",
+                "reserves": 63835,
+                "borrowings": 0,
+                "other_liabilities": 14426,
+                "total_liabilities": 79349,
+                "fixed_assets": 12574,
+                "cwip": 1606,
+                "investments": 12163,
+                "other_asset": 53006,
+                "total_assets": 79349
+            },
+            {
+                "id": 788,
+                "company_id": "INFY",
+                "year": "Mar 2019",
+                "equity_capital": "2170.0",
+                "reserves": 62778,
+                "borrowings": 0,
+                "other_liabilities": 19118,
+                "total_liabilities": 84066,
+                "fixed_assets": 15710,
+                "cwip": 1388,
+                "investments": 11261,
+                "other_asset": 55707,
+                "total_assets": 84066
+            },
+            {
+                "id": 789,
+                "company_id": "INFY",
+                "year": "Mar 2020",
+                "equity_capital": "2122.0",
+                "reserves": 63328,
+                "borrowings": 4633,
+                "other_liabilities": 21717,
+                "total_liabilities": 91800,
+                "fixed_assets": 23789,
+                "cwip": 954,
+                "investments": 8792,
+                "other_asset": 58265,
+                "total_assets": 91800
+            },
+            {
+                "id": 790,
+                "company_id": "INFY",
+                "year": "Mar 2021",
+                "equity_capital": "2124.0",
+                "reserves": 74227,
+                "borrowings": 5325,
+                "other_liabilities": 25835,
+                "total_liabilities": 107511,
+                "fixed_assets": 25505,
+                "cwip": 922,
+                "investments": 14205,
+                "other_asset": 66879,
+                "total_assets": 107511
+            },
+            {
+                "id": 791,
+                "company_id": "INFY",
+                "year": "Mar 2022",
+                "equity_capital": "2098.0",
+                "reserves": 73252,
+                "borrowings": 5474,
+                "other_liabilities": 35905,
+                "total_liabilities": 116729,
+                "fixed_assets": 25800,
+                "cwip": 416,
+                "investments": 20324,
+                "other_asset": 70189,
+                "total_assets": 116729
+            },
+            {
+                "id": 792,
+                "company_id": "INFY",
+                "year": "Mar 2023",
+                "equity_capital": "2069.0",
+                "reserves": 73338,
+                "borrowings": 8299,
+                "other_liabilities": 40890,
+                "total_liabilities": 124596,
+                "fixed_assets": 29225,
+                "cwip": 288,
+                "investments": 19478,
+                "other_asset": 75605,
+                "total_assets": 124596
+            },
+            {
+                "id": 793,
+                "company_id": "INFY",
+                "year": "Mar 2024",
+                "equity_capital": "2071.0",
+                "reserves": 86045,
+                "borrowings": 8359,
+                "other_liabilities": 39545,
+                "total_liabilities": 136020,
+                "fixed_assets": 27622,
+                "cwip": 293,
+                "investments": 24623,
+                "other_asset": 83482,
+                "total_assets": 136020
+            },
+            {
+                "id": 794,
+                "company_id": "INFY",
+                "year": "Sep 2024",
+                "equity_capital": "2072.0",
+                "reserves": 88391,
+                "borrowings": 8804,
+                "other_liabilities": 42603,
+                "total_liabilities": 141870,
+                "fixed_assets": 31917,
+                "cwip": 505,
+                "investments": 17394,
+                "other_asset": 92054,
+                "total_assets": 141870
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 710,
+                "company_id": "INFY",
+                "year": "Mar 2013",
+                "sales": 40352,
+                "expenses": 28814,
+                "operating_profit": 11538,
+                "opm_percentage": 29,
+                "other_income": 2365,
+                "interest": 5,
+                "depreciation": 1099,
+                "profit_before_tax": 12799,
+                "tax_percentage": "26",
+                "net_profit": 9429,
+                "eps": 21,
+                "dividend_payout": "25"
+            },
+            {
+                "id": 711,
+                "company_id": "INFY",
+                "year": "Mar 2014",
+                "sales": 50133,
+                "expenses": 36743,
+                "operating_profit": 13390,
+                "opm_percentage": 27,
+                "other_income": 2664,
+                "interest": 9,
+                "depreciation": 1317,
+                "profit_before_tax": 14728,
+                "tax_percentage": "28",
+                "net_profit": 10656,
+                "eps": 23,
+                "dividend_payout": "34"
+            },
+            {
+                "id": 712,
+                "company_id": "INFY",
+                "year": "Mar 2015",
+                "sales": 53319,
+                "expenses": 38436,
+                "operating_profit": 14883,
+                "opm_percentage": 28,
+                "other_income": 3430,
+                "interest": 12,
+                "depreciation": 1017,
+                "profit_before_tax": 17284,
+                "tax_percentage": "28",
+                "net_profit": 12372,
+                "eps": 27,
+                "dividend_payout": "55"
+            },
+            {
+                "id": 713,
+                "company_id": "INFY",
+                "year": "Mar 2016",
+                "sales": 62441,
+                "expenses": 45362,
+                "operating_profit": 17079,
+                "opm_percentage": 27,
+                "other_income": 3120,
+                "interest": 0,
+                "depreciation": 1459,
+                "profit_before_tax": 18740,
+                "tax_percentage": "28",
+                "net_profit": 13489,
+                "eps": 29,
+                "dividend_payout": "41"
+            },
+            {
+                "id": 714,
+                "company_id": "INFY",
+                "year": "Mar 2017",
+                "sales": 68484,
+                "expenses": 49880,
+                "operating_profit": 18604,
+                "opm_percentage": 27,
+                "other_income": 3050,
+                "interest": 0,
+                "depreciation": 1703,
+                "profit_before_tax": 19951,
+                "tax_percentage": "28",
+                "net_profit": 14353,
+                "eps": 31,
+                "dividend_payout": "41"
+            },
+            {
+                "id": 715,
+                "company_id": "INFY",
+                "year": "Mar 2018",
+                "sales": 70522,
+                "expenses": 51700,
+                "operating_profit": 18822,
+                "opm_percentage": 27,
+                "other_income": 3311,
+                "interest": 0,
+                "depreciation": 1863,
+                "profit_before_tax": 20270,
+                "tax_percentage": "21",
+                "net_profit": 16029,
+                "eps": 37,
+                "dividend_payout": "59"
+            },
+            {
+                "id": 716,
+                "company_id": "INFY",
+                "year": "Mar 2019",
+                "sales": 82675,
+                "expenses": 62505,
+                "operating_profit": 20170,
+                "opm_percentage": 24,
+                "other_income": 2882,
+                "interest": 0,
+                "depreciation": 2011,
+                "profit_before_tax": 21041,
+                "tax_percentage": "27",
+                "net_profit": 15410,
+                "eps": 35,
+                "dividend_payout": "60"
+            },
+            {
+                "id": 717,
+                "company_id": "INFY",
+                "year": "Mar 2020",
+                "sales": 90791,
+                "expenses": 68524,
+                "operating_profit": 22267,
+                "opm_percentage": 25,
+                "other_income": 2803,
+                "interest": 170,
+                "depreciation": 2893,
+                "profit_before_tax": 22007,
+                "tax_percentage": "24",
+                "net_profit": 16639,
+                "eps": 39,
+                "dividend_payout": "45"
+            },
+            {
+                "id": 718,
+                "company_id": "INFY",
+                "year": "Mar 2021",
+                "sales": 100472,
+                "expenses": 72583,
+                "operating_profit": 27889,
+                "opm_percentage": 28,
+                "other_income": 2201,
+                "interest": 195,
+                "depreciation": 3267,
+                "profit_before_tax": 26628,
+                "tax_percentage": "27",
+                "net_profit": 19423,
+                "eps": 45,
+                "dividend_payout": "59"
+            },
+            {
+                "id": 719,
+                "company_id": "INFY",
+                "year": "Mar 2022",
+                "sales": 121641,
+                "expenses": 90150,
+                "operating_profit": 31491,
+                "opm_percentage": 26,
+                "other_income": 2295,
+                "interest": 200,
+                "depreciation": 3476,
+                "profit_before_tax": 30110,
+                "tax_percentage": "26",
+                "net_profit": 22146,
+                "eps": 53,
+                "dividend_payout": "59"
+            },
+            {
+                "id": 720,
+                "company_id": "INFY",
+                "year": "Mar 2023",
+                "sales": 146767,
+                "expenses": 111637,
+                "operating_profit": 35130,
+                "opm_percentage": 24,
+                "other_income": 2701,
+                "interest": 284,
+                "depreciation": 4225,
+                "profit_before_tax": 33322,
+                "tax_percentage": "28",
+                "net_profit": 24108,
+                "eps": 58,
+                "dividend_payout": "73"
+            },
+            {
+                "id": 721,
+                "company_id": "INFY",
+                "year": "Mar 2024",
+                "sales": 153670,
+                "expenses": 117245,
+                "operating_profit": 36425,
+                "opm_percentage": 24,
+                "other_income": 4711,
+                "interest": 470,
+                "depreciation": 4678,
+                "profit_before_tax": 35988,
+                "tax_percentage": "27",
+                "net_profit": 26248,
+                "eps": 63,
+                "dividend_payout": null
+            },
+            {
+                "id": 722,
+                "company_id": "INFY",
+                "year": "TTM",
+                "sales": 159988,
+                "expenses": 121843,
+                "operating_profit": 38145,
+                "opm_percentage": 24,
+                "other_income": 5138,
+                "interest": 424,
+                "depreciation": 4675,
+                "profit_before_tax": 38184,
+                "tax_percentage": null,
+                "net_profit": 27687,
+                "eps": 67,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [
+            {
+                "id": "5",
+                "company_id": "INFY",
+                "compounded_sales_growth": "10 Years:     12%",
+                "compounded_profit_growth": "10 Years:         9%",
+                "stock_price_cagr": "     10 Years:     15%",
+                "roe": "10 Years:      27%"
+            },
+            {
+                "id": "6",
+                "company_id": "INFY",
+                "compounded_sales_growth": "5 Years:       13%",
+                "compounded_profit_growth": "5 Years:           11%",
+                "stock_price_cagr": "       5 Years:     22%",
+                "roe": "5 Years:        29%"
+            },
+            {
+                "id": "7",
+                "company_id": "INFY",
+                "compounded_sales_growth": "3 Years:       5%",
+                "compounded_profit_growth": "3 Years:           10%",
+                "stock_price_cagr": "       3 Years:     4%",
+                "roe": "3 Years:        31%"
+            },
+            {
+                "id": "8",
+                "company_id": "INFY",
+                "compounded_sales_growth": "TTM:            3%",
+                "compounded_profit_growth": "TTM:                 8%",
+                "stock_price_cagr": "       1 Year:       27%",
+                "roe": "Last Year:     32%"
+            }
+        ],
+        "documents": [
+            {
+                "id": 754,
+                "company_id": "INFY",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/25cc7fbc-154b-4463-928d-c95f2d8c5c9c.pdf"
+            },
+            {
+                "id": 755,
+                "company_id": "INFY",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis//3ba3c011-0411-49ba-a250-f746a5b9d940.pdf"
+            },
+            {
+                "id": 756,
+                "company_id": "INFY",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/73015500209_29_06_22.pdf"
+            },
+            {
+                "id": 757,
+                "company_id": "INFY",
+                "Year": 2021,
+                "Annual_Report": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-21.pdf"
+            },
+            {
+                "id": 758,
+                "company_id": "INFY",
+                "Year": 2020,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090320.pdf"
+            },
+            {
+                "id": 759,
+                "company_id": "INFY",
+                "Year": 2019,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090319.pdf"
+            },
+            {
+                "id": 760,
+                "company_id": "INFY",
+                "Year": 2018,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090318.pdf"
+            },
+            {
+                "id": 761,
+                "company_id": "INFY",
+                "Year": 2017,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090317.pdf"
+            },
+            {
+                "id": 762,
+                "company_id": "INFY",
+                "Year": 2016,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090317.pdf"
+            },
+            {
+                "id": 763,
+                "company_id": "INFY",
+                "Year": 2015,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090315.pdf"
+            },
+            {
+                "id": 764,
+                "company_id": "INFY",
+                "Year": 2014,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090314.pdf"
+            },
+            {
+                "id": 765,
+                "company_id": "INFY",
+                "Year": 2013,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090313.pdf"
+            },
+            {
+                "id": 766,
+                "company_id": "INFY",
+                "Year": 2012,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090312.pdf"
+            },
+            {
+                "id": 767,
+                "company_id": "INFY",
+                "Year": 2011,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/500209/5002090311.pdf"
+            },
+            {
+                "id": 768,
+                "company_id": "INFY",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 769,
+                "company_id": "INFY",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

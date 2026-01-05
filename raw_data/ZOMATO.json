@@ -1,0 +1,425 @@
+{
+    "company": {
+        "id": "ZOMATO",
+        "company_logo": "https://bluestock.in/static/mkt-icons/nifty100/ZOMATO.png",
+        "company_name": "Zomato Ltd\r\n",
+        "chart_link": "https://in.tradingview.com/chart/qGsydD2w/?symbol=NSE%3AAMBUJACEM.T0",
+        "about_company": "Incorporated in 2010, Zomato Limited is one of the leading online Food Service platforms in terms of the value of food sold. Its offerings include food delivery, dining-out services, Loyalty programs, and others.\r\n\r\nAs of December 31, 2020, Zomato has established a strong footprint across 23 countries with 131,233 active food delivery restaurants, 161,637 active delivery partners, and an average monthly food order of 10.7 million customers.[1]\r\n\r\n",
+        "website": "https://www.zomato.com/",
+        "nse_profile": "https://www.nseindia.com/get-quotes/equity?symbol=ZOMATO",
+        "bse_profile": "https://www.bseindia.com/stock-share-price/zomato-ltd/ZOMATO/543320/",
+        "face_value": 1,
+        "book_value": 24,
+        "roce_percentage": "1.14",
+        "roe_percentage": "1.12"
+    },
+    "data": {
+        "cashflow": [
+            {
+                "id": 1242,
+                "company_id": "ZOMATO",
+                "year": "Mar 2020",
+                "operating_activity": -2144,
+                "investing_activity": 1740,
+                "financing_activity": 359,
+                "net_cash_flow": -45
+            },
+            {
+                "id": 1243,
+                "company_id": "ZOMATO",
+                "year": "Mar 2021",
+                "operating_activity": -1018,
+                "investing_activity": -5245,
+                "financing_activity": 6402,
+                "net_cash_flow": 139
+            },
+            {
+                "id": 1244,
+                "company_id": "ZOMATO",
+                "year": "Mar 2022",
+                "operating_activity": -693,
+                "investing_activity": -7971,
+                "financing_activity": 8750,
+                "net_cash_flow": 86
+            },
+            {
+                "id": 1245,
+                "company_id": "ZOMATO",
+                "year": "Mar 2023",
+                "operating_activity": -844,
+                "investing_activity": 797,
+                "financing_activity": -127,
+                "net_cash_flow": -174
+            },
+            {
+                "id": 1246,
+                "company_id": "ZOMATO",
+                "year": "Mar 2024",
+                "operating_activity": 646,
+                "investing_activity": -348,
+                "financing_activity": -207,
+                "net_cash_flow": 91
+            }
+        ],
+        "prosandcons": [],
+        "balancesheet": [
+            {
+                "id": 1226,
+                "company_id": "ZOMATO",
+                "year": "2018",
+                "equity_capital": "0.0",
+                "reserves": 1036,
+                "borrowings": 186,
+                "other_liabilities": 152,
+                "total_liabilities": 1374,
+                "fixed_assets": 190,
+                "cwip": 1,
+                "investments": 829,
+                "other_asset": 354,
+                "total_assets": 1374
+            },
+            {
+                "id": 1227,
+                "company_id": "ZOMATO",
+                "year": "2019",
+                "equity_capital": "0.0",
+                "reserves": 2356,
+                "borrowings": 348,
+                "other_liabilities": 709,
+                "total_liabilities": 3413,
+                "fixed_assets": 389,
+                "cwip": 1,
+                "investments": 2145,
+                "other_asset": 879,
+                "total_assets": 3413
+            },
+            {
+                "id": 1228,
+                "company_id": "ZOMATO",
+                "year": "2020",
+                "equity_capital": "0.0",
+                "reserves": 457,
+                "borrowings": 326,
+                "other_liabilities": 2117,
+                "total_liabilities": 2900,
+                "fixed_assets": 1591,
+                "cwip": 1,
+                "investments": 324,
+                "other_asset": 985,
+                "total_assets": 2900
+            },
+            {
+                "id": 1229,
+                "company_id": "ZOMATO",
+                "year": "2021",
+                "equity_capital": "0.0",
+                "reserves": 7644,
+                "borrowings": 527,
+                "other_liabilities": 532,
+                "total_liabilities": 8704,
+                "fixed_assets": 1539,
+                "cwip": 0,
+                "investments": 2205,
+                "other_asset": 4959,
+                "total_assets": 8704
+            },
+            {
+                "id": 1230,
+                "company_id": "ZOMATO",
+                "year": "2022",
+                "equity_capital": "764.0",
+                "reserves": 15741,
+                "borrowings": 70,
+                "other_liabilities": 751,
+                "total_liabilities": 17327,
+                "fixed_assets": 1404,
+                "cwip": 1,
+                "investments": 4718,
+                "other_asset": 11204,
+                "total_assets": 17327
+            },
+            {
+                "id": 1231,
+                "company_id": "ZOMATO",
+                "year": "2023",
+                "equity_capital": "836.0",
+                "reserves": 18624,
+                "borrowings": 507,
+                "other_liabilities": 1632,
+                "total_liabilities": 21599,
+                "fixed_assets": 6344,
+                "cwip": 7,
+                "investments": 6765,
+                "other_asset": 8483,
+                "total_assets": 21599
+            },
+            {
+                "id": 1232,
+                "company_id": "ZOMATO",
+                "year": "2024",
+                "equity_capital": "868.0",
+                "reserves": 19545,
+                "borrowings": 749,
+                "other_liabilities": 2194,
+                "total_liabilities": 23356,
+                "fixed_assets": 6448,
+                "cwip": 18,
+                "investments": 11645,
+                "other_asset": 5245,
+                "total_assets": 23356
+            },
+            {
+                "id": 1233,
+                "company_id": "ZOMATO",
+                "year": "2024.5",
+                "equity_capital": "872.0",
+                "reserves": 20446,
+                "borrowings": 1159,
+                "other_liabilities": 2728,
+                "total_liabilities": 25205,
+                "fixed_assets": 8390,
+                "cwip": 59,
+                "investments": 11708,
+                "other_asset": 5048,
+                "total_assets": 25205
+            }
+        ],
+        "profitandloss": [
+            {
+                "id": 1341,
+                "company_id": "ZOMATO",
+                "year": "Mar 2018",
+                "sales": 466,
+                "expenses": 558,
+                "operating_profit": -92,
+                "opm_percentage": -20,
+                "other_income": 21,
+                "interest": 6,
+                "depreciation": 29,
+                "profit_before_tax": -107,
+                "tax_percentage": "0",
+                "net_profit": -107,
+                "eps": -3070,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1342,
+                "company_id": "ZOMATO",
+                "year": "Mar 2019",
+                "sales": 1313,
+                "expenses": 3556,
+                "operating_profit": -2243,
+                "opm_percentage": -171,
+                "other_income": 1285,
+                "interest": 9,
+                "depreciation": 43,
+                "profit_before_tax": -1010,
+                "tax_percentage": "0",
+                "net_profit": -1010,
+                "eps": -28574,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1343,
+                "company_id": "ZOMATO",
+                "year": "Mar 2020",
+                "sales": 2605,
+                "expenses": 4909,
+                "operating_profit": -2305,
+                "opm_percentage": -88,
+                "other_income": 16,
+                "interest": 13,
+                "depreciation": 84,
+                "profit_before_tax": -2386,
+                "tax_percentage": "0",
+                "net_profit": -2386,
+                "eps": -70097,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1344,
+                "company_id": "ZOMATO",
+                "year": "Mar 2021",
+                "sales": 1994,
+                "expenses": 2461,
+                "operating_profit": -467,
+                "opm_percentage": -23,
+                "other_income": -200,
+                "interest": 10,
+                "depreciation": 138,
+                "profit_before_tax": -815,
+                "tax_percentage": "0",
+                "net_profit": -816,
+                "eps": -23124,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1345,
+                "company_id": "ZOMATO",
+                "year": "Mar 2022",
+                "sales": 4192,
+                "expenses": 6043,
+                "operating_profit": -1851,
+                "opm_percentage": -44,
+                "other_income": 793,
+                "interest": 12,
+                "depreciation": 150,
+                "profit_before_tax": -1220,
+                "tax_percentage": "0",
+                "net_profit": -1222,
+                "eps": -2,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1346,
+                "company_id": "ZOMATO",
+                "year": "Mar 2023",
+                "sales": 7079,
+                "expenses": 8290,
+                "operating_profit": -1211,
+                "opm_percentage": -17,
+                "other_income": 682,
+                "interest": 49,
+                "depreciation": 437,
+                "profit_before_tax": -1015,
+                "tax_percentage": "-4",
+                "net_profit": -971,
+                "eps": -1,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1347,
+                "company_id": "ZOMATO",
+                "year": "Mar 2024",
+                "sales": 12114,
+                "expenses": 12071,
+                "operating_profit": 43,
+                "opm_percentage": 0,
+                "other_income": 846,
+                "interest": 72,
+                "depreciation": 526,
+                "profit_before_tax": 291,
+                "tax_percentage": "-21",
+                "net_profit": 351,
+                "eps": 0,
+                "dividend_payout": "0"
+            },
+            {
+                "id": 1348,
+                "company_id": "ZOMATO",
+                "year": "TTM",
+                "sales": 17972,
+                "expenses": 17321,
+                "operating_profit": 651,
+                "opm_percentage": 4,
+                "other_income": 944,
+                "interest": 118,
+                "depreciation": 716,
+                "profit_before_tax": 761,
+                "tax_percentage": null,
+                "net_profit": 663,
+                "eps": 1,
+                "dividend_payout": null
+            }
+        ],
+        "analysis": [],
+        "documents": [
+            {
+                "id": 1554,
+                "company_id": "ZOMATO",
+                "Year": 2024,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/629bfe24-4e55-4b14-957e-8c8bc5828ff0.pdf"
+            },
+            {
+                "id": 1555,
+                "company_id": "ZOMATO",
+                "Year": 2023,
+                "Annual_Report": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0e0e9b68-2d04-41bf-9f59-fb539e330baf.pdf"
+            },
+            {
+                "id": 1556,
+                "company_id": "ZOMATO",
+                "Year": 2022,
+                "Annual_Report": "https://www.bseindia.com/bseplus/AnnualReport/543320/74160543320.pdf"
+            },
+            {
+                "id": 1557,
+                "company_id": "ZOMATO",
+                "Year": 2021,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1558,
+                "company_id": "ZOMATO",
+                "Year": 2020,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1559,
+                "company_id": "ZOMATO",
+                "Year": 2019,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1560,
+                "company_id": "ZOMATO",
+                "Year": 2018,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1561,
+                "company_id": "ZOMATO",
+                "Year": 2017,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1562,
+                "company_id": "ZOMATO",
+                "Year": 2016,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1563,
+                "company_id": "ZOMATO",
+                "Year": 2015,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1564,
+                "company_id": "ZOMATO",
+                "Year": 2014,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1565,
+                "company_id": "ZOMATO",
+                "Year": 2013,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1566,
+                "company_id": "ZOMATO",
+                "Year": 2012,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1567,
+                "company_id": "ZOMATO",
+                "Year": 2011,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1568,
+                "company_id": "ZOMATO",
+                "Year": 2010,
+                "Annual_Report": "Null"
+            },
+            {
+                "id": 1569,
+                "company_id": "ZOMATO",
+                "Year": 2009,
+                "Annual_Report": "Null"
+            }
+        ]
+    }
+}

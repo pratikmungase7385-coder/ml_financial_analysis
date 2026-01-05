@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Not Found</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="name">
+        <img src="/static/logo.jpeg" class="logo">
+        <b>StockAnalyzer</b>
+    </div>
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/companies">All Companies</a>
+    </div>
+</div>
+
+<div class="hero">
+    <h1>Company Not Found</h1>
+    <p style="color:#6b7280;font-size:18px;margin-top:10px">
+        We couldn find anything matching
+        <b>{{ query }}</b>
+    </p>
+
+    <a href="/" class="chart-btn" style="margin-top:30px">
+        Try another search
+    </a>
+</div>
+
+</body>
+</html>
