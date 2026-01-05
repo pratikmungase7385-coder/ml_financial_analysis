@@ -138,14 +138,30 @@ async def no_cache(request: Request, call_next):
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
+# db = pymysql.connect(
+#     host="localhost",
+#     user="root",
+#     password="mysql",
+#     database="ml",
+#     cursorclass=pymysql.cursors.DictCursor,
+#     autocommit=True
+# )
+
+
+
+import os
+import pymysql
+
 db = pymysql.connect(
-    host="localhost",
-    user="root",
-    password="mysql",
-    database="ml",
+    host=os.getenv("localhost"),
+    user=os.getenv("root"),
+    password=os.getenv("mysql"),
+    database=os.getenv("ml"),
+    port=int(os.getenv("DB_PORT", 3306)),
     cursorclass=pymysql.cursors.DictCursor,
     autocommit=True
 )
+
 
 # ---------------- HOME ----------------
 @app.get("/", response_class=HTMLResponse)
