@@ -108,73 +108,50 @@
 # if __name__ == "__main__":
 #     app.run(debug=True)
 
-
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from starlette.middleware.sessions import SessionMiddleware
+from dotenv import load_dotenv
 import pymysql
+import os
 
-
-from fastapi.responses import RedirectResponse
+load_dotenv()
 
 app = FastAPI()
-
-
-from fastapi import Response
-
-from starlette.middleware.sessions import SessionMiddleware
-
 app.add_middleware(SessionMiddleware, secret_key="super-secret")
-
-
-@app.middleware("http")
-async def no_cache(request: Request, call_next):
-    response: Response = await call_next(request)
-    response.headers["Cache-Control"] = "no-store"
-    return response
-
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-# db = pymysql.connect(
-#     host="localhost",
-#     user="root",
-#     password="mysql",
-#     database="ml",
-#     cursorclass=pymysql.cursors.DictCursor,
-#     autocommit=True
-# )
 
-
-import os
-import pymysql
-
-db = pymysql.connect(
-    host=os.getenv("DB_HOST"),
-    user=os.getenv("DB_USER"),
-    password=os.getenv("DB_PASSWORD"),
-    database=os.getenv("DB_NAME"),
-    port=int(os.getenv("DB_PORT", 3306)),
-    cursorclass=pymysql.cursors.DictCursor,
-    autocommit=True
-)
+# ---------- Database ----------
+def get_db():
+    return pymysql.connect(
+        host=os.getenv("MYSQLHOST"),
+        user=os.getenv("MYSQLUSER"),
+        password=os.getenv("MYSQLPASSWORD"),
+        database=os.getenv("MYSQLDATABASE"),
+        port=int(os.getenv("MYSQLPORT", 3306)),
+        cursorclass=pymysql.cursors.DictCursor,
+        autocommit=True
+    )
 
 
 # ---------------- HOME ----------------
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
-    cur = db.cursor()
-    cur.execute("""
-        SELECT DISTINCT c.company_id, c.company_name
-        FROM analysis a
-        JOIN companies c ON a.company_id = c.company_id
-        ORDER BY c.company_name
-    """)
-    examples = cur.fetchall()
+    db = get_db()
+    with db.cursor() as cur:
+        cur.execute("""
+            SELECT DISTINCT c.company_id, c.company_name
+            FROM analysis a
+            JOIN companies c ON a.company_id = c.company_id
+            ORDER BY c.company_name
+        """)
+        examples = cur.fetchall()
 
-    # get error once and delete it from session
     error = request.session.pop("error", None)
 
     return templates.TemplateResponse("home.html", {
@@ -184,71 +161,71 @@ def home(request: Request):
     })
 
 
+# ---------------- SEARCH ----------------
 @app.get("/search")
 def search(q: str, request: Request):
-    cur = db.cursor()
-
-    cur.execute("""
-        SELECT company_id
-        FROM companies
-        WHERE company_id LIKE %s OR company_name LIKE %s
-        LIMIT 1
-    """, (f"%{q}%", f"%{q}%"))
-
-    row = cur.fetchone()
+    db = get_db()
+    with db.cursor() as cur:
+        cur.execute("""
+            SELECT company_id
+            FROM companies
+            WHERE company_id LIKE %s OR company_name LIKE %s
+            LIMIT 1
+        """, (f"%{q}%", f"%{q}%"))
+        row = cur.fetchone()
 
     if not row:
-        # store error in session
         request.session["error"] = f"No company found for '{q}'"
         return RedirectResponse("/", status_code=302)
 
     return RedirectResponse(f"/company/{row['company_id']}", status_code=302)
 
 
-
-
 # ---------------- COMPANY LIST ----------------
 @app.get("/companies", response_class=HTMLResponse)
 def companies(request: Request):
-    cur = db.cursor()
-    cur.execute("SELECT company_id, company_name, company_logo FROM companies ORDER BY company_name")
-    companies = cur.fetchall()
+    db = get_db()
+    with db.cursor() as cur:
+        cur.execute("SELECT company_id, company_name, company_logo FROM companies ORDER BY company_name")
+        companies = cur.fetchall()
+
     return templates.TemplateResponse("list.html", {
         "request": request,
         "companies": companies
     })
 
+
 # ---------------- COMPANY PAGE ----------------
 @app.get("/company/{cid}", response_class=HTMLResponse)
 def company(cid: str, request: Request):
-    cur = db.cursor()
+    db = get_db()
+    with db.cursor() as cur:
+        cur.execute("SELECT * FROM companies WHERE company_id=%s", (cid,))
+        company = cur.fetchone()
 
-    cur.execute("SELECT * FROM companies WHERE company_id=%s", (cid,))
-    company = cur.fetchone()
+        if not company:
+            return HTMLResponse("Company not found", status_code=404)
 
-    if not company:
-        return HTMLResponse("Company not found", status_code=404)
+        cur.execute("SELECT * FROM analysis WHERE company_id=%s", (cid,))
+        analysis = cur.fetchall()
 
-    cur.execute("SELECT * FROM analysis WHERE company_id=%s", (cid,))
-    analysis = cur.fetchall()
+        cur.execute("SELECT pros FROM prosandcons WHERE company_id=%s AND pros IS NOT NULL", (cid,))
+        pros = cur.fetchall()
 
-    cur.execute("SELECT pros FROM prosandcons WHERE company_id=%s AND pros IS NOT NULL", (cid,))
-    pros = cur.fetchall()
+        cur.execute("SELECT cons FROM prosandcons WHERE company_id=%s AND cons IS NOT NULL", (cid,))
+        cons = cur.fetchall()
 
-    cur.execute("SELECT cons FROM prosandcons WHERE company_id=%s AND cons IS NOT NULL", (cid,))
-    cons = cur.fetchall()
+        cur.execute("SELECT * FROM balancesheet WHERE company_id=%s", (cid,))
+        balancesheet = cur.fetchall()
 
-    cur.execute("SELECT * FROM balancesheet WHERE company_id=%s", (cid,))
-    balancesheet = cur.fetchall()
+        cur.execute("SELECT * FROM profitandloss WHERE company_id=%s", (cid,))
+        profitandloss = cur.fetchall()
 
-    cur.execute("SELECT * FROM profitandloss WHERE company_id=%s", (cid,))
-    profitandloss = cur.fetchall()
+        cur.execute("SELECT * FROM cashflow WHERE company_id=%s", (cid,))
+        cashflow = cur.fetchall()
 
-    cur.execute("SELECT * FROM cashflow WHERE company_id=%s", (cid,))
-    cashflow = cur.fetchall()
-
-    cur.execute("SELECT * FROM documents WHERE company_id=%s ORDER BY year DESC", (cid,))
-    documents = cur.fetchall()
+        cur.execute("SELECT * FROM documents WHERE company_id=%s ORDER BY year DESC", (cid,))
+        documents = cur.fetchall()
 
     return templates.TemplateResponse("company.html", {
         "request": request,
