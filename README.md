@@ -7,7 +7,7 @@ Overview
 
 This is a backend-driven financial analysis system that fetches real company financial data, stores it in a database, and provides structured financial insights through APIs and a simple web interface.
 
-Tech Stack
+>Tech Stack
 
 Backend: FastAPI (Python)
 
@@ -19,7 +19,7 @@ Frontend: HTML, CSS, basic JavaScript
 
 Data Source: Live Stock Financial API
 
-System Flow
+>System Flow
 
 User enters a company symbol (TCS, HDFCBANK, INFY).
 
@@ -31,7 +31,7 @@ Financial records are stored in a MySQL database.
 
 Calculated financial metrics are returned to the frontend via FastAPI APIs.
 
-Key Features
+>Key Features
 
 Fetches Balance Sheet, Profit & Loss, and Cash Flow data from a real API.
 
@@ -43,12 +43,12 @@ Provides structured financial summaries via REST APIs.
 
 Enables users to analyze company performance using real data.
 
-Why This Project Is Valuable
+>Why This Project Is Valuable
 
 This project demonstrates a complete backend data pipeline:
 API → Database → Data Processing → Output
 
-It proves you can:
+>It proves you can:
 
 Work with real financial APIs
 
